@@ -1,0 +1,51 @@
+rank,side_effect_id,side_effect_name,prediction_score,is_ground_truth
+1,35,['anaemia'],5.116944313049316,False
+2,462,['hypomagnesaemia'],5.09498405456543,False
+3,129,['body temperature increased'],5.037631034851074,False
+4,489,['infestation'],4.944694519042969,False
+5,460,['hypokalaemia'],4.909684181213379,False
+6,243,['diarrhoea'],4.8723859786987305,True
+7,539,['leukopenia'],4.819155693054199,False
+8,621,['nausea'],4.815601348876953,False
+9,562,['lymphopenia'],4.806252479553223,False
+10,401,['headache'],4.7982177734375,True
+11,387,['haemoglobin'],4.79331111907959,False
+12,638,['neutropenia'],4.763576507568359,False
+13,431,['hyperglycaemia'],4.749576568603516,False
+14,454,['hypoalbuminaemia'],4.74683952331543,True
+15,361,['gastrointestinal disorder'],4.745237350463867,True
+16,465,['hypophosphataemia'],4.737583160400391,False
+17,80,['asthenia'],4.703403472900391,False
+18,388,['haemoglobin decreased'],4.684025764465332,True
+19,630,['nervous system disorder'],4.678686141967773,False
+20,79,['aspartate aminotransferase increased'],4.667777061462402,False
+21,364,['gastrointestinal pain'],4.645420074462891,False
+22,795,['respiratory distress'],4.644258499145508,False
+23,978,['vomiting'],4.6386823654174805,True
+24,114,['blood creatinine increased'],4.621411323547363,True
+25,433,['hyperkalaemia'],4.572483062744141,False
+26,455,['hypocalcaemia'],4.558576583862305,True
+27,207,['constipation'],4.556658744812012,True
+28,488,['infection'],4.555821418762207,False
+29,252,['dizziness'],4.542047500610352,True
+30,566,['malnutrition'],4.531517028808594,False
+31,458,['hypoglycaemia'],4.523560523986816,True
+32,118,['blood lactate dehydrogenase increased'],4.520438194274902,True
+33,666,['oral candidiasis'],4.519684791564941,False
+34,93,['bacteraemia'],4.519503593444824,True
+35,84,['atelectasis'],4.516834259033203,True
+36,45,['angiopathy'],4.481893539428711,False
+37,215,['cough'],4.48051643371582,True
+38,905,['thrombocytosis'],4.47974967956543,True
+39,392,['haemorrhage'],4.477450370788574,False
+40,735,['pneumothorax'],4.460925102233887,True
+41,796,['respiratory failure'],4.460359573364258,True
+42,190,['coagulopathy'],4.459572792053223,False
+43,25,['alanine aminotransferase increased'],4.45649528503418,False
+44,227,['dehydration'],4.455356597900391,False
+45,684,['pain in extremity'],4.452460289001465,False
+46,502,['injection site reaction'],4.449633598327637,False
+47,904,['thrombocytopenia'],4.43647575378418,False
+48,439,['hypernatraemia'],4.432221412658691,True
+49,464,['hyponatraemia'],4.430914878845215,True
+50,656,['oedema peripheral'],4.424873352050781,True

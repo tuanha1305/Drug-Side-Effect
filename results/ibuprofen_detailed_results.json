@@ -1,0 +1,6981 @@
+{
+  "drug": "Ibuprofen",
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "statistics": {
+    "total_side_effects": 994,
+    "mean_score": 0.8370032678236454,
+    "max_score": 5.116944313049316,
+    "min_score": -0.020099876448512077,
+    "std_score": 1.5588617434441814,
+    "high_confidence_count": 222,
+    "medium_confidence_count": 11,
+    "low_confidence_count": 761,
+    "overlap_at_20": 5,
+    "overlap_at_50": 21,
+    "overlap_at_100": 30,
+    "total_ground_truth": 35,
+    "precision_at_20": 0.25,
+    "precision_at_50": 0.42,
+    "precision_at_100": 0.3
+  },
+  "all_predictions": [
+    {
+      "rank": 1,
+      "side_effect_id": 35,
+      "side_effect_name": "['anaemia']",
+      "prediction_score": 5.116944313049316,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 2,
+      "side_effect_id": 462,
+      "side_effect_name": "['hypomagnesaemia']",
+      "prediction_score": 5.09498405456543,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 3,
+      "side_effect_id": 129,
+      "side_effect_name": "['body temperature increased']",
+      "prediction_score": 5.037631034851074,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 4,
+      "side_effect_id": 489,
+      "side_effect_name": "['infestation']",
+      "prediction_score": 4.944694519042969,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 5,
+      "side_effect_id": 460,
+      "side_effect_name": "['hypokalaemia']",
+      "prediction_score": 4.909684181213379,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 6,
+      "side_effect_id": 243,
+      "side_effect_name": "['diarrhoea']",
+      "prediction_score": 4.8723859786987305,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 7,
+      "side_effect_id": 539,
+      "side_effect_name": "['leukopenia']",
+      "prediction_score": 4.819155693054199,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 8,
+      "side_effect_id": 621,
+      "side_effect_name": "['nausea']",
+      "prediction_score": 4.815601348876953,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 9,
+      "side_effect_id": 562,
+      "side_effect_name": "['lymphopenia']",
+      "prediction_score": 4.806252479553223,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 10,
+      "side_effect_id": 401,
+      "side_effect_name": "['headache']",
+      "prediction_score": 4.7982177734375,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 11,
+      "side_effect_id": 387,
+      "side_effect_name": "['haemoglobin']",
+      "prediction_score": 4.79331111907959,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 12,
+      "side_effect_id": 638,
+      "side_effect_name": "['neutropenia']",
+      "prediction_score": 4.763576507568359,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 13,
+      "side_effect_id": 431,
+      "side_effect_name": "['hyperglycaemia']",
+      "prediction_score": 4.749576568603516,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 14,
+      "side_effect_id": 454,
+      "side_effect_name": "['hypoalbuminaemia']",
+      "prediction_score": 4.74683952331543,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 15,
+      "side_effect_id": 361,
+      "side_effect_name": "['gastrointestinal disorder']",
+      "prediction_score": 4.745237350463867,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 16,
+      "side_effect_id": 465,
+      "side_effect_name": "['hypophosphataemia']",
+      "prediction_score": 4.737583160400391,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 17,
+      "side_effect_id": 80,
+      "side_effect_name": "['asthenia']",
+      "prediction_score": 4.703403472900391,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 18,
+      "side_effect_id": 388,
+      "side_effect_name": "['haemoglobin decreased']",
+      "prediction_score": 4.684025764465332,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 19,
+      "side_effect_id": 630,
+      "side_effect_name": "['nervous system disorder']",
+      "prediction_score": 4.678686141967773,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 20,
+      "side_effect_id": 79,
+      "side_effect_name": "['aspartate aminotransferase increased']",
+      "prediction_score": 4.667777061462402,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 21,
+      "side_effect_id": 364,
+      "side_effect_name": "['gastrointestinal pain']",
+      "prediction_score": 4.645420074462891,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 22,
+      "side_effect_id": 795,
+      "side_effect_name": "['respiratory distress']",
+      "prediction_score": 4.644258499145508,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 23,
+      "side_effect_id": 978,
+      "side_effect_name": "['vomiting']",
+      "prediction_score": 4.6386823654174805,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 24,
+      "side_effect_id": 114,
+      "side_effect_name": "['blood creatinine increased']",
+      "prediction_score": 4.621411323547363,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 25,
+      "side_effect_id": 433,
+      "side_effect_name": "['hyperkalaemia']",
+      "prediction_score": 4.572483062744141,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 26,
+      "side_effect_id": 455,
+      "side_effect_name": "['hypocalcaemia']",
+      "prediction_score": 4.558576583862305,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 27,
+      "side_effect_id": 207,
+      "side_effect_name": "['constipation']",
+      "prediction_score": 4.556658744812012,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 28,
+      "side_effect_id": 488,
+      "side_effect_name": "['infection']",
+      "prediction_score": 4.555821418762207,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 29,
+      "side_effect_id": 252,
+      "side_effect_name": "['dizziness']",
+      "prediction_score": 4.542047500610352,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 30,
+      "side_effect_id": 566,
+      "side_effect_name": "['malnutrition']",
+      "prediction_score": 4.531517028808594,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 31,
+      "side_effect_id": 458,
+      "side_effect_name": "['hypoglycaemia']",
+      "prediction_score": 4.523560523986816,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 32,
+      "side_effect_id": 118,
+      "side_effect_name": "['blood lactate dehydrogenase increased']",
+      "prediction_score": 4.520438194274902,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 33,
+      "side_effect_id": 666,
+      "side_effect_name": "['oral candidiasis']",
+      "prediction_score": 4.519684791564941,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 34,
+      "side_effect_id": 93,
+      "side_effect_name": "['bacteraemia']",
+      "prediction_score": 4.519503593444824,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 35,
+      "side_effect_id": 84,
+      "side_effect_name": "['atelectasis']",
+      "prediction_score": 4.516834259033203,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 36,
+      "side_effect_id": 45,
+      "side_effect_name": "['angiopathy']",
+      "prediction_score": 4.481893539428711,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 37,
+      "side_effect_id": 215,
+      "side_effect_name": "['cough']",
+      "prediction_score": 4.48051643371582,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 38,
+      "side_effect_id": 905,
+      "side_effect_name": "['thrombocytosis']",
+      "prediction_score": 4.47974967956543,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 39,
+      "side_effect_id": 392,
+      "side_effect_name": "['haemorrhage']",
+      "prediction_score": 4.477450370788574,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 40,
+      "side_effect_id": 735,
+      "side_effect_name": "['pneumothorax']",
+      "prediction_score": 4.460925102233887,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 41,
+      "side_effect_id": 796,
+      "side_effect_name": "['respiratory failure']",
+      "prediction_score": 4.460359573364258,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 42,
+      "side_effect_id": 190,
+      "side_effect_name": "['coagulopathy']",
+      "prediction_score": 4.459572792053223,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 43,
+      "side_effect_id": 25,
+      "side_effect_name": "['alanine aminotransferase increased']",
+      "prediction_score": 4.45649528503418,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 44,
+      "side_effect_id": 227,
+      "side_effect_name": "['dehydration']",
+      "prediction_score": 4.455356597900391,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 45,
+      "side_effect_id": 684,
+      "side_effect_name": "['pain in extremity']",
+      "prediction_score": 4.452460289001465,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 46,
+      "side_effect_id": 502,
+      "side_effect_name": "['injection site reaction']",
+      "prediction_score": 4.449633598327637,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 47,
+      "side_effect_id": 904,
+      "side_effect_name": "['thrombocytopenia']",
+      "prediction_score": 4.43647575378418,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 48,
+      "side_effect_id": 439,
+      "side_effect_name": "['hypernatraemia']",
+      "prediction_score": 4.432221412658691,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 49,
+      "side_effect_id": 464,
+      "side_effect_name": "['hyponatraemia']",
+      "prediction_score": 4.430914878845215,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 50,
+      "side_effect_id": 656,
+      "side_effect_name": "['oedema peripheral']",
+      "prediction_score": 4.424873352050781,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 51,
+      "side_effect_id": 12,
+      "side_effect_name": "['actinic keratosis']",
+      "prediction_score": 4.410675048828125,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 52,
+      "side_effect_id": 2,
+      "side_effect_name": "['abdominal pain']",
+      "prediction_score": 4.39337158203125,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 53,
+      "side_effect_id": 404,
+      "side_effect_name": "['hepatic enzyme increased']",
+      "prediction_score": 4.389272689819336,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 54,
+      "side_effect_id": 427,
+      "side_effect_name": "['hyperbilirubinaemia']",
+      "prediction_score": 4.385711669921875,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 55,
+      "side_effect_id": 946,
+      "side_effect_name": "['urinary tract infection']",
+      "prediction_score": 4.362471580505371,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 56,
+      "side_effect_id": 355,
+      "side_effect_name": "['gamma-glutamyltransferase increased']",
+      "prediction_score": 4.362069129943848,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 57,
+      "side_effect_id": 468,
+      "side_effect_name": "['hypotension']",
+      "prediction_score": 4.359556198120117,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 58,
+      "side_effect_id": 333,
+      "side_effect_name": "['febrile neutropenia']",
+      "prediction_score": 4.328444480895996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 59,
+      "side_effect_id": 109,
+      "side_effect_name": "['blood alkaline phosphatase increased']",
+      "prediction_score": 4.324467658996582,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 60,
+      "side_effect_id": 269,
+      "side_effect_name": "['dyspepsia']",
+      "prediction_score": 4.3051557540893555,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 61,
+      "side_effect_id": 823,
+      "side_effect_name": "['seborrhoeic keratosis']",
+      "prediction_score": 4.303912162780762,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 62,
+      "side_effect_id": 828,
+      "side_effect_name": "['septic shock']",
+      "prediction_score": 4.290707588195801,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 63,
+      "side_effect_id": 849,
+      "side_effect_name": "['skin lesion']",
+      "prediction_score": 4.289614677429199,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 64,
+      "side_effect_id": 391,
+      "side_effect_name": "['haemoptysis']",
+      "prediction_score": 4.280449867248535,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 65,
+      "side_effect_id": 906,
+      "side_effect_name": "['thrombophlebitis']",
+      "prediction_score": 4.272181510925293,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 66,
+      "side_effect_id": 92,
+      "side_effect_name": "['back pain']",
+      "prediction_score": 4.268599510192871,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 67,
+      "side_effect_id": 273,
+      "side_effect_name": "['dyspnoea']",
+      "prediction_score": 4.268388748168945,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 68,
+      "side_effect_id": 798,
+      "side_effect_name": "['respiratory tract infection']",
+      "prediction_score": 4.259774208068848,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 69,
+      "side_effect_id": 479,
+      "side_effect_name": "['impaired healing']",
+      "prediction_score": 4.258173942565918,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 70,
+      "side_effect_id": 85,
+      "side_effect_name": "['atrial fibrillation']",
+      "prediction_score": 4.2490386962890625,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 71,
+      "side_effect_id": 445,
+      "side_effect_name": "['hypertension']",
+      "prediction_score": 4.236169815063477,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 72,
+      "side_effect_id": 642,
+      "side_effect_name": "['night sweats']",
+      "prediction_score": 4.2174272537231445,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 73,
+      "side_effect_id": 1,
+      "side_effect_name": "['abdominal distension']",
+      "prediction_score": 4.206449508666992,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 74,
+      "side_effect_id": 43,
+      "side_effect_name": "['angina pectoris']",
+      "prediction_score": 4.206015586853027,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 75,
+      "side_effect_id": 473,
+      "side_effect_name": "['hypoxia']",
+      "prediction_score": 4.202848434448242,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 76,
+      "side_effect_id": 620,
+      "side_effect_name": "['nasopharyngitis']",
+      "prediction_score": 4.195972442626953,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 77,
+      "side_effect_id": 788,
+      "side_effect_name": "['renal failure']",
+      "prediction_score": 4.192569732666016,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 78,
+      "side_effect_id": 505,
+      "side_effect_name": "['insomnia']",
+      "prediction_score": 4.186420440673828,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 79,
+      "side_effect_id": 411,
+      "side_effect_name": "['hepatobiliary disease']",
+      "prediction_score": 4.186358451843262,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 80,
+      "side_effect_id": 691,
+      "side_effect_name": "['pancytopenia']",
+      "prediction_score": 4.181713104248047,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 81,
+      "side_effect_id": 466,
+      "side_effect_name": "['hypoproteinaemia']",
+      "prediction_score": 4.179999351501465,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 82,
+      "side_effect_id": 611,
+      "side_effect_name": "['myocardial ischaemia']",
+      "prediction_score": 4.173177719116211,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 83,
+      "side_effect_id": 984,
+      "side_effect_name": "['weight decreased']",
+      "prediction_score": 4.170855522155762,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 84,
+      "side_effect_id": 661,
+      "side_effect_name": "['oliguria']",
+      "prediction_score": 4.1702985763549805,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 85,
+      "side_effect_id": 655,
+      "side_effect_name": "['oedema']",
+      "prediction_score": 4.162230491638184,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 86,
+      "side_effect_id": 733,
+      "side_effect_name": "['pneumonia']",
+      "prediction_score": 4.142033576965332,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 87,
+      "side_effect_id": 58,
+      "side_effect_name": "['apnoea']",
+      "prediction_score": 4.131880760192871,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 88,
+      "side_effect_id": 580,
+      "side_effect_name": "['mental disorder']",
+      "prediction_score": 4.130526542663574,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 89,
+      "side_effect_id": 781,
+      "side_effect_name": "['rash macular']",
+      "prediction_score": 4.119214057922363,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 90,
+      "side_effect_id": 886,
+      "side_effect_name": "['tachypnoea']",
+      "prediction_score": 4.111432075500488,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 91,
+      "side_effect_id": 720,
+      "side_effect_name": "['pharyngitis']",
+      "prediction_score": 4.095359802246094,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 92,
+      "side_effect_id": 885,
+      "side_effect_name": "['tachycardia']",
+      "prediction_score": 4.090397834777832,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 93,
+      "side_effect_id": 683,
+      "side_effect_name": "['pain']",
+      "prediction_score": 4.0864410400390625,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 94,
+      "side_effect_id": 13,
+      "side_effect_name": "['acute coronary syndrome']",
+      "prediction_score": 4.086352348327637,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 95,
+      "side_effect_id": 771,
+      "side_effect_name": "['pulmonary oedema']",
+      "prediction_score": 4.082326889038086,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 96,
+      "side_effect_id": 0,
+      "side_effect_name": "['abdominal discomfort']",
+      "prediction_score": 4.0805206298828125,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 97,
+      "side_effect_id": 991,
+      "side_effect_name": "['wound secretion']",
+      "prediction_score": 4.079179763793945,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 98,
+      "side_effect_id": 406,
+      "side_effect_name": "['hepatic function abnormal']",
+      "prediction_score": 4.069216728210449,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 99,
+      "side_effect_id": 146,
+      "side_effect_name": "['bronchitis']",
+      "prediction_score": 4.061402320861816,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 100,
+      "side_effect_id": 168,
+      "side_effect_name": "['catheter site pain']",
+      "prediction_score": 4.053297996520996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 101,
+      "side_effect_id": 944,
+      "side_effect_name": "['urinary retention']",
+      "prediction_score": 4.050252914428711,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 102,
+      "side_effect_id": 937,
+      "side_effect_name": "['upper respiratory tract infection']",
+      "prediction_score": 4.049582481384277,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 103,
+      "side_effect_id": 610,
+      "side_effect_name": "['myocardial infarction']",
+      "prediction_score": 4.046761512756348,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 104,
+      "side_effect_id": 758,
+      "side_effect_name": "['pruritus']",
+      "prediction_score": 4.045058250427246,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 105,
+      "side_effect_id": 226,
+      "side_effect_name": "['deep vein thrombosis']",
+      "prediction_score": 4.042043685913086,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 106,
+      "side_effect_id": 125,
+      "side_effect_name": "['blood urea increased']",
+      "prediction_score": 4.022064208984375,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 107,
+      "side_effect_id": 158,
+      "side_effect_name": "['cardiac failure congestive']",
+      "prediction_score": 4.018915176391602,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 108,
+      "side_effect_id": 741,
+      "side_effect_name": "['post procedural haemorrhage']",
+      "prediction_score": 4.018216133117676,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 109,
+      "side_effect_id": 789,
+      "side_effect_name": "['renal impairment']",
+      "prediction_score": 4.012104034423828,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 110,
+      "side_effect_id": 96,
+      "side_effect_name": "['basal cell carcinoma']",
+      "prediction_score": 4.006805419921875,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 111,
+      "side_effect_id": 635,
+      "side_effect_name": "['neuropathy peripheral']",
+      "prediction_score": 4.002488136291504,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 112,
+      "side_effect_id": 808,
+      "side_effect_name": "['rhinitis']",
+      "prediction_score": 4.00042724609375,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 113,
+      "side_effect_id": 121,
+      "side_effect_name": "['blood potassium increased']",
+      "prediction_score": 3.9949772357940674,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 114,
+      "side_effect_id": 607,
+      "side_effect_name": "['myalgia']",
+      "prediction_score": 3.9947798252105713,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 115,
+      "side_effect_id": 386,
+      "side_effect_name": "['haematuria']",
+      "prediction_score": 3.991691827774048,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 116,
+      "side_effect_id": 15,
+      "side_effect_name": "['acute respiratory distress syndrome']",
+      "prediction_score": 3.9881060123443604,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 117,
+      "side_effect_id": 16,
+      "side_effect_name": "['adrenal insufficiency']",
+      "prediction_score": 3.9800450801849365,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 118,
+      "side_effect_id": 393,
+      "side_effect_name": "['haemorrhage intracranial']",
+      "prediction_score": 3.94413685798645,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 119,
+      "side_effect_id": 774,
+      "side_effect_name": "['purpura']",
+      "prediction_score": 3.943476438522339,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 120,
+      "side_effect_id": 34,
+      "side_effect_name": "['amylase increased']",
+      "prediction_score": 3.931439161300659,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 121,
+      "side_effect_id": 519,
+      "side_effect_name": "['jaundice']",
+      "prediction_score": 3.9265482425689697,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 122,
+      "side_effect_id": 26,
+      "side_effect_name": "['albuminuria']",
+      "prediction_score": 3.924785852432251,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 123,
+      "side_effect_id": 74,
+      "side_effect_name": "['arthralgia']",
+      "prediction_score": 3.924574375152588,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 124,
+      "side_effect_id": 71,
+      "side_effect_name": "['arrhythmia']",
+      "prediction_score": 3.914350986480713,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 125,
+      "side_effect_id": 174,
+      "side_effect_name": "['cerebrovascular accident']",
+      "prediction_score": 3.9128642082214355,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 126,
+      "side_effect_id": 8,
+      "side_effect_name": "['abscess']",
+      "prediction_score": 3.9033424854278564,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 127,
+      "side_effect_id": 934,
+      "side_effect_name": "['ulcer']",
+      "prediction_score": 3.8775482177734375,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 128,
+      "side_effect_id": 560,
+      "side_effect_name": "['lymphoedema']",
+      "prediction_score": 3.877438545227051,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 129,
+      "side_effect_id": 132,
+      "side_effect_name": "['bradycardia']",
+      "prediction_score": 3.87508225440979,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 130,
+      "side_effect_id": 569,
+      "side_effect_name": "['mediastinal disorder']",
+      "prediction_score": 3.8640172481536865,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 131,
+      "side_effect_id": 110,
+      "side_effect_name": "['blood bilirubin increased']",
+      "prediction_score": 3.861806631088257,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 132,
+      "side_effect_id": 497,
+      "side_effect_name": "['injection site haemorrhage']",
+      "prediction_score": 3.8462891578674316,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 133,
+      "side_effect_id": 381,
+      "side_effect_name": "['gynaecomastia']",
+      "prediction_score": 3.845773696899414,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 134,
+      "side_effect_id": 975,
+      "side_effect_name": "['vision blurred']",
+      "prediction_score": 3.8147997856140137,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 135,
+      "side_effect_id": 491,
+      "side_effect_name": "['influenza']",
+      "prediction_score": 3.787822723388672,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 136,
+      "side_effect_id": 131,
+      "side_effect_name": "['bone pain']",
+      "prediction_score": 3.7750511169433594,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 137,
+      "side_effect_id": 961,
+      "side_effect_name": "['vascular purpura']",
+      "prediction_score": 3.7647948265075684,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 138,
+      "side_effect_id": 604,
+      "side_effect_name": "['musculoskeletal discomfort']",
+      "prediction_score": 3.7528164386749268,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 139,
+      "side_effect_id": 706,
+      "side_effect_name": "['pericardial effusion']",
+      "prediction_score": 3.741241693496704,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 140,
+      "side_effect_id": 490,
+      "side_effect_name": "['inflammation']",
+      "prediction_score": 3.7308080196380615,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 141,
+      "side_effect_id": 753,
+      "side_effect_name": "['protein urine present']",
+      "prediction_score": 3.7242069244384766,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 142,
+      "side_effect_id": 793,
+      "side_effect_name": "['respiratory depression']",
+      "prediction_score": 3.722135305404663,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 143,
+      "side_effect_id": 492,
+      "side_effect_name": "['influenza like illness']",
+      "prediction_score": 3.7072956562042236,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 144,
+      "side_effect_id": 280,
+      "side_effect_name": "['eczema']",
+      "prediction_score": 3.693310022354126,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 145,
+      "side_effect_id": 545,
+      "side_effect_name": "['lipase increased']",
+      "prediction_score": 3.691737413406372,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 146,
+      "side_effect_id": 504,
+      "side_effect_name": "['injury']",
+      "prediction_score": 3.678985834121704,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 147,
+      "side_effect_id": 359,
+      "side_effect_name": "['gastroenteritis']",
+      "prediction_score": 3.6695430278778076,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 148,
+      "side_effect_id": 345,
+      "side_effect_name": "['flushing']",
+      "prediction_score": 3.6461374759674072,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 149,
+      "side_effect_id": 945,
+      "side_effect_name": "['urinary tract disorder']",
+      "prediction_score": 3.6375105381011963,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 150,
+      "side_effect_id": 530,
+      "side_effect_name": "['lacrimation increased']",
+      "prediction_score": 3.6193554401397705,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 151,
+      "side_effect_id": 332,
+      "side_effect_name": "['fatigue']",
+      "prediction_score": 3.5763556957244873,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 152,
+      "side_effect_id": 304,
+      "side_effect_name": "['erectile dysfunction']",
+      "prediction_score": 3.5166714191436768,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 153,
+      "side_effect_id": 470,
+      "side_effect_name": "['hypothyroidism']",
+      "prediction_score": 3.5085623264312744,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 154,
+      "side_effect_id": 180,
+      "side_effect_name": "['chest pain']",
+      "prediction_score": 3.4855449199676514,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 155,
+      "side_effect_id": 730,
+      "side_effect_name": "['pleural effusion']",
+      "prediction_score": 3.4745261669158936,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 156,
+      "side_effect_id": 537,
+      "side_effect_name": "['leukocytosis']",
+      "prediction_score": 3.4600181579589844,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 157,
+      "side_effect_id": 204,
+      "side_effect_name": "['conjunctivitis']",
+      "prediction_score": 3.458677291870117,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 158,
+      "side_effect_id": 784,
+      "side_effect_name": "['rash pustular']",
+      "prediction_score": 3.452359914779663,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 159,
+      "side_effect_id": 306,
+      "side_effect_name": "['erythema']",
+      "prediction_score": 3.446564197540283,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 160,
+      "side_effect_id": 968,
+      "side_effect_name": "['ventricular fibrillation']",
+      "prediction_score": 3.3645682334899902,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 161,
+      "side_effect_id": 116,
+      "side_effect_name": "['blood glucose decreased']",
+      "prediction_score": 3.2681667804718018,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 162,
+      "side_effect_id": 443,
+      "side_effect_name": "['hypersensitivity']",
+      "prediction_score": 3.2322771549224854,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 163,
+      "side_effect_id": 599,
+      "side_effect_name": "['muscle spasms']",
+      "prediction_score": 3.188342809677124,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 164,
+      "side_effect_id": 688,
+      "side_effect_name": "['palpitations']",
+      "prediction_score": 3.130882978439331,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 165,
+      "side_effect_id": 770,
+      "side_effect_name": "['pulmonary hypertension']",
+      "prediction_score": 3.1288135051727295,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 166,
+      "side_effect_id": 592,
+      "side_effect_name": "['mucosal inflammation']",
+      "prediction_score": 3.1229512691497803,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 167,
+      "side_effect_id": 157,
+      "side_effect_name": "['cardiac failure']",
+      "prediction_score": 3.122140645980835,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 168,
+      "side_effect_id": 602,
+      "side_effect_name": "['muscular weakness']",
+      "prediction_score": 3.0825726985931396,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 169,
+      "side_effect_id": 834,
+      "side_effect_name": "['sinus bradycardia']",
+      "prediction_score": 3.049321413040161,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 170,
+      "side_effect_id": 737,
+      "side_effect_name": "['polycythaemia']",
+      "prediction_score": 3.0235846042633057,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 171,
+      "side_effect_id": 156,
+      "side_effect_name": "['cardiac disorder']",
+      "prediction_score": 3.023143768310547,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 172,
+      "side_effect_id": 660,
+      "side_effect_name": "['oesophagitis']",
+      "prediction_score": 2.855316162109375,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 173,
+      "side_effect_id": 881,
+      "side_effect_name": "['swelling']",
+      "prediction_score": 2.788362979888916,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 174,
+      "side_effect_id": 850,
+      "side_effect_name": "['skin mass']",
+      "prediction_score": 2.7767019271850586,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 175,
+      "side_effect_id": 437,
+      "side_effect_name": "['hyperlipidaemia']",
+      "prediction_score": 2.707655429840088,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 176,
+      "side_effect_id": 487,
+      "side_effect_name": "['infarction']",
+      "prediction_score": 2.685741424560547,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 177,
+      "side_effect_id": 755,
+      "side_effect_name": "['prothrombin level decreased']",
+      "prediction_score": 2.4971320629119873,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 178,
+      "side_effect_id": 457,
+      "side_effect_name": "['hypochromic anaemia']",
+      "prediction_score": 2.415682077407837,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 179,
+      "side_effect_id": 976,
+      "side_effect_name": "['visual acuity reduced']",
+      "prediction_score": 2.351439952850342,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 180,
+      "side_effect_id": 245,
+      "side_effect_name": "['diplopia']",
+      "prediction_score": 2.2441108226776123,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 181,
+      "side_effect_id": 778,
+      "side_effect_name": "['rash']",
+      "prediction_score": 2.240628480911255,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 182,
+      "side_effect_id": 769,
+      "side_effect_name": "['pulmonary function test decreased']",
+      "prediction_score": 2.2361738681793213,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 183,
+      "side_effect_id": 184,
+      "side_effect_name": "['cholestasis']",
+      "prediction_score": 2.163043975830078,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 184,
+      "side_effect_id": 327,
+      "side_effect_name": "['face oedema']",
+      "prediction_score": 2.144641160964966,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 185,
+      "side_effect_id": 4,
+      "side_effect_name": "['abdominal pain upper']",
+      "prediction_score": 2.108947992324829,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 186,
+      "side_effect_id": 284,
+      "side_effect_name": "['electrocardiogram abnormal']",
+      "prediction_score": 2.1028034687042236,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 187,
+      "side_effect_id": 428,
+      "side_effect_name": "['hypercalcaemia']",
+      "prediction_score": 2.077460527420044,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 188,
+      "side_effect_id": 279,
+      "side_effect_name": "['ecchymosis']",
+      "prediction_score": 2.070164203643799,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 189,
+      "side_effect_id": 522,
+      "side_effect_name": "['joint swelling']",
+      "prediction_score": 2.0402703285217285,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 190,
+      "side_effect_id": 939,
+      "side_effect_name": "['urethral disorder']",
+      "prediction_score": 1.9789278507232666,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 191,
+      "side_effect_id": 271,
+      "side_effect_name": "['dysphonia']",
+      "prediction_score": 1.9639631509780884,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 192,
+      "side_effect_id": 144,
+      "side_effect_name": "['breath sounds abnormal']",
+      "prediction_score": 1.7513821125030518,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 193,
+      "side_effect_id": 827,
+      "side_effect_name": "['sepsis']",
+      "prediction_score": 1.721855640411377,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 194,
+      "side_effect_id": 183,
+      "side_effect_name": "['cholelithiasis']",
+      "prediction_score": 1.7081549167633057,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 195,
+      "side_effect_id": 605,
+      "side_effect_name": "['musculoskeletal pain']",
+      "prediction_score": 1.6677117347717285,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 196,
+      "side_effect_id": 236,
+      "side_effect_name": "['dermatitis']",
+      "prediction_score": 1.6336026191711426,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 197,
+      "side_effect_id": 623,
+      "side_effect_name": "['neoplasm']",
+      "prediction_score": 1.6304587125778198,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 198,
+      "side_effect_id": 912,
+      "side_effect_name": "['tinnitus']",
+      "prediction_score": 1.59119713306427,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 199,
+      "side_effect_id": 385,
+      "side_effect_name": "['haematoma']",
+      "prediction_score": 1.5259926319122314,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 200,
+      "side_effect_id": 838,
+      "side_effect_name": "['sinusitis']",
+      "prediction_score": 1.4958689212799072,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 201,
+      "side_effect_id": 303,
+      "side_effect_name": "['epistaxis']",
+      "prediction_score": 1.4784703254699707,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 202,
+      "side_effect_id": 167,
+      "side_effect_name": "['cataract']",
+      "prediction_score": 1.403090000152588,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 203,
+      "side_effect_id": 258,
+      "side_effect_name": "['dry mouth']",
+      "prediction_score": 1.365194320678711,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 204,
+      "side_effect_id": 950,
+      "side_effect_name": "['urticaria']",
+      "prediction_score": 1.320495367050171,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 205,
+      "side_effect_id": 432,
+      "side_effect_name": "['hyperhidrosis']",
+      "prediction_score": 1.2833943367004395,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 206,
+      "side_effect_id": 334,
+      "side_effect_name": "['feeling abnormal']",
+      "prediction_score": 1.2603839635849,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 207,
+      "side_effect_id": 31,
+      "side_effect_name": "['amblyopia']",
+      "prediction_score": 1.2557997703552246,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 208,
+      "side_effect_id": 756,
+      "side_effect_name": "['prothrombin level increased']",
+      "prediction_score": 1.2256704568862915,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 209,
+      "side_effect_id": 452,
+      "side_effect_name": "['hypoaesthesia']",
+      "prediction_score": 1.2060827016830444,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 210,
+      "side_effect_id": 921,
+      "side_effect_name": "['toothache']",
+      "prediction_score": 1.1380705833435059,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 211,
+      "side_effect_id": 677,
+      "side_effect_name": "['osteoporosis']",
+      "prediction_score": 1.107304334640503,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 212,
+      "side_effect_id": 679,
+      "side_effect_name": "['otitis media']",
+      "prediction_score": 0.9915748834609985,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 213,
+      "side_effect_id": 44,
+      "side_effect_name": "['angioedema']",
+      "prediction_score": 0.9657546877861023,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 214,
+      "side_effect_id": 710,
+      "side_effect_name": "['periorbital oedema']",
+      "prediction_score": 0.9646613597869873,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 215,
+      "side_effect_id": 615,
+      "side_effect_name": "['myositis']",
+      "prediction_score": 0.9447306394577026,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 216,
+      "side_effect_id": 734,
+      "side_effect_name": "['pneumonia aspiration']",
+      "prediction_score": 0.8292162418365479,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 217,
+      "side_effect_id": 242,
+      "side_effect_name": "['diabetes mellitus']",
+      "prediction_score": 0.8049042820930481,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 218,
+      "side_effect_id": 674,
+      "side_effect_name": "['osteoarthritis']",
+      "prediction_score": 0.7888352274894714,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 219,
+      "side_effect_id": 206,
+      "side_effect_name": "['connective tissue disorder']",
+      "prediction_score": 0.7868725657463074,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 220,
+      "side_effect_id": 890,
+      "side_effect_name": "['tenderness']",
+      "prediction_score": 0.7838294506072998,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 221,
+      "side_effect_id": 690,
+      "side_effect_name": "['pancreatitis acute']",
+      "prediction_score": 0.7387967109680176,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 222,
+      "side_effect_id": 861,
+      "side_effect_name": "['somnolence']",
+      "prediction_score": 0.7192317843437195,
+      "is_ground_truth": true
+    },
+    {
+      "rank": 223,
+      "side_effect_id": 919,
+      "side_effect_name": "['tooth disorder']",
+      "prediction_score": 0.6831775903701782,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 224,
+      "side_effect_id": 762,
+      "side_effect_name": "['pseudomembranous colitis']",
+      "prediction_score": 0.6425678730010986,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 225,
+      "side_effect_id": 516,
+      "side_effect_name": "['irritability']",
+      "prediction_score": 0.6310219764709473,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 226,
+      "side_effect_id": 171,
+      "side_effect_name": "['cerebral haemorrhage']",
+      "prediction_score": 0.6166368722915649,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 227,
+      "side_effect_id": 494,
+      "side_effect_name": "['infusion site reaction']",
+      "prediction_score": 0.6142176389694214,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 228,
+      "side_effect_id": 729,
+      "side_effect_name": "['platelet count decreased']",
+      "prediction_score": 0.6074694991111755,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 229,
+      "side_effect_id": 617,
+      "side_effect_name": "['nasal congestion']",
+      "prediction_score": 0.5977842807769775,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 230,
+      "side_effect_id": 370,
+      "side_effect_name": "['gingival bleeding']",
+      "prediction_score": 0.587666928768158,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 231,
+      "side_effect_id": 549,
+      "side_effect_name": "['liver injury']",
+      "prediction_score": 0.5626440644264221,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 232,
+      "side_effect_id": 117,
+      "side_effect_name": "['blood glucose increased']",
+      "prediction_score": 0.559038519859314,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 233,
+      "side_effect_id": 365,
+      "side_effect_name": "['gastrointestinal perforation']",
+      "prediction_score": 0.5330407023429871,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 234,
+      "side_effect_id": 930,
+      "side_effect_name": "['tremor']",
+      "prediction_score": 0.4608525335788727,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 235,
+      "side_effect_id": 113,
+      "side_effect_name": "['blood creatine phosphokinase increased']",
+      "prediction_score": 0.41986238956451416,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 236,
+      "side_effect_id": 151,
+      "side_effect_name": "['burning sensation']",
+      "prediction_score": 0.4191608726978302,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 237,
+      "side_effect_id": 39,
+      "side_effect_name": "['anaphylactic shock']",
+      "prediction_score": 0.3985876441001892,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 238,
+      "side_effect_id": 288,
+      "side_effect_name": "['electrolyte imbalance']",
+      "prediction_score": 0.36226797103881836,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 239,
+      "side_effect_id": 318,
+      "side_effect_name": "['eye disorder']",
+      "prediction_score": 0.3371153473854065,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 240,
+      "side_effect_id": 521,
+      "side_effect_name": "['joint stiffness']",
+      "prediction_score": 0.3131815493106842,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 241,
+      "side_effect_id": 973,
+      "side_effect_name": "['viral infection']",
+      "prediction_score": 0.3061622977256775,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 242,
+      "side_effect_id": 802,
+      "side_effect_name": "['retinal detachment']",
+      "prediction_score": 0.30236077308654785,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 243,
+      "side_effect_id": 985,
+      "side_effect_name": "['weight increased']",
+      "prediction_score": 0.2976876199245453,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 244,
+      "side_effect_id": 147,
+      "side_effect_name": "['bronchospasm']",
+      "prediction_score": 0.2976730465888977,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 245,
+      "side_effect_id": 379,
+      "side_effect_name": "['gout']",
+      "prediction_score": 0.2927415370941162,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 246,
+      "side_effect_id": 540,
+      "side_effect_name": "['libido decreased']",
+      "prediction_score": 0.2922325134277344,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 247,
+      "side_effect_id": 178,
+      "side_effect_name": "['cheilitis']",
+      "prediction_score": 0.28417500853538513,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 248,
+      "side_effect_id": 503,
+      "side_effect_name": "['injection site swelling']",
+      "prediction_score": 0.2806486487388611,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 249,
+      "side_effect_id": 267,
+      "side_effect_name": "['dysmenorrhoea']",
+      "prediction_score": 0.27302244305610657,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 250,
+      "side_effect_id": 625,
+      "side_effect_name": "['nephritis']",
+      "prediction_score": 0.27160173654556274,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 251,
+      "side_effect_id": 405,
+      "side_effect_name": "['hepatic failure']",
+      "prediction_score": 0.23865604400634766,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 252,
+      "side_effect_id": 223,
+      "side_effect_name": "['cystitis noninfective']",
+      "prediction_score": 0.21918557584285736,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 253,
+      "side_effect_id": 179,
+      "side_effect_name": "['chest discomfort']",
+      "prediction_score": 0.21514832973480225,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 254,
+      "side_effect_id": 94,
+      "side_effect_name": "['bacterial infection']",
+      "prediction_score": 0.20762914419174194,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 255,
+      "side_effect_id": 182,
+      "side_effect_name": "['cholecystitis']",
+      "prediction_score": 0.19642274081707,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 256,
+      "side_effect_id": 745,
+      "side_effect_name": "['procedural pain']",
+      "prediction_score": 0.19609293341636658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 257,
+      "side_effect_id": 496,
+      "side_effect_name": "['injection site erythema']",
+      "prediction_score": 0.19385114312171936,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 258,
+      "side_effect_id": 864,
+      "side_effect_name": "['sputum increased']",
+      "prediction_score": 0.19309233129024506,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 259,
+      "side_effect_id": 907,
+      "side_effect_name": "['thrombosis']",
+      "prediction_score": 0.17546632885932922,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 260,
+      "side_effect_id": 221,
+      "side_effect_name": "['cystitis']",
+      "prediction_score": 0.1746663600206375,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 261,
+      "side_effect_id": 509,
+      "side_effect_name": "['interstitial lung disease']",
+      "prediction_score": 0.16387219727039337,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 262,
+      "side_effect_id": 594,
+      "side_effect_name": "['multiple fractures']",
+      "prediction_score": 0.16020715236663818,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 263,
+      "side_effect_id": 550,
+      "side_effect_name": "['local swelling']",
+      "prediction_score": 0.15544024109840393,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 264,
+      "side_effect_id": 832,
+      "side_effect_name": "['shock']",
+      "prediction_score": 0.15215405821800232,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 265,
+      "side_effect_id": 108,
+      "side_effect_name": "['blood albumin decreased']",
+      "prediction_score": 0.15172643959522247,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 266,
+      "side_effect_id": 449,
+      "side_effect_name": "['hypertriglyceridaemia']",
+      "prediction_score": 0.1399458944797516,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 267,
+      "side_effect_id": 628,
+      "side_effect_name": "['nephropathy toxic']",
+      "prediction_score": 0.13850873708724976,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 268,
+      "side_effect_id": 506,
+      "side_effect_name": "['instillation site pain']",
+      "prediction_score": 0.13572287559509277,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 269,
+      "side_effect_id": 239,
+      "side_effect_name": "['dermatitis bullous']",
+      "prediction_score": 0.12585176527500153,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 270,
+      "side_effect_id": 826,
+      "side_effect_name": "['sensory loss']",
+      "prediction_score": 0.12461443245410919,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 271,
+      "side_effect_id": 714,
+      "side_effect_name": "['peripheral sensory neuropathy']",
+      "prediction_score": 0.12078708410263062,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 272,
+      "side_effect_id": 416,
+      "side_effect_name": "['herpes simplex']",
+      "prediction_score": 0.11918503046035767,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 273,
+      "side_effect_id": 150,
+      "side_effect_name": "['bundle branch block']",
+      "prediction_score": 0.10555882751941681,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 274,
+      "side_effect_id": 748,
+      "side_effect_name": "['productive cough']",
+      "prediction_score": 0.10553035140037537,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 275,
+      "side_effect_id": 210,
+      "side_effect_name": "['coordination abnormal']",
+      "prediction_score": 0.1049429178237915,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 276,
+      "side_effect_id": 250,
+      "side_effect_name": "['disturbance in sexual arousal']",
+      "prediction_score": 0.1043093204498291,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 277,
+      "side_effect_id": 622,
+      "side_effect_name": "['neck pain']",
+      "prediction_score": 0.10250347852706909,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 278,
+      "side_effect_id": 883,
+      "side_effect_name": "['syncope']",
+      "prediction_score": 0.10240775346755981,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 279,
+      "side_effect_id": 551,
+      "side_effect_name": "['loss of consciousness']",
+      "prediction_score": 0.09551450610160828,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 280,
+      "side_effect_id": 844,
+      "side_effect_name": "['skin exfoliation']",
+      "prediction_score": 0.09381863474845886,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 281,
+      "side_effect_id": 53,
+      "side_effect_name": "['anxiety']",
+      "prediction_score": 0.09242862462997437,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 282,
+      "side_effect_id": 63,
+      "side_effect_name": "['application site irritation']",
+      "prediction_score": 0.09229030460119247,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 283,
+      "side_effect_id": 423,
+      "side_effect_name": "['hot flush']",
+      "prediction_score": 0.09115501493215561,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 284,
+      "side_effect_id": 187,
+      "side_effect_name": "['chromaturia']",
+      "prediction_score": 0.08871559798717499,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 285,
+      "side_effect_id": 536,
+      "side_effect_name": "['lethargy']",
+      "prediction_score": 0.08587032556533813,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 286,
+      "side_effect_id": 981,
+      "side_effect_name": "['vulvovaginal mycotic infection']",
+      "prediction_score": 0.07901714742183685,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 287,
+      "side_effect_id": 441,
+      "side_effect_name": "['hyperphosphataemia']",
+      "prediction_score": 0.07758229225873947,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 288,
+      "side_effect_id": 17,
+      "side_effect_name": "['affect lability']",
+      "prediction_score": 0.07735808193683624,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 289,
+      "side_effect_id": 754,
+      "side_effect_name": "['proteinuria']",
+      "prediction_score": 0.07600723206996918,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 290,
+      "side_effect_id": 631,
+      "side_effect_name": "['nervousness']",
+      "prediction_score": 0.07534663379192352,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 291,
+      "side_effect_id": 815,
+      "side_effect_name": "['salivary hypersecretion']",
+      "prediction_score": 0.07523344457149506,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 292,
+      "side_effect_id": 508,
+      "side_effect_name": "['international normalised ratio increased']",
+      "prediction_score": 0.07379799336194992,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 293,
+      "side_effect_id": 348,
+      "side_effect_name": "['fracture']",
+      "prediction_score": 0.07328517735004425,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 294,
+      "side_effect_id": 723,
+      "side_effect_name": "['photophobia']",
+      "prediction_score": 0.07024833559989929,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 295,
+      "side_effect_id": 958,
+      "side_effect_name": "['vaginal infection']",
+      "prediction_score": 0.07016970217227936,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 296,
+      "side_effect_id": 928,
+      "side_effect_name": "['transaminases increased']",
+      "prediction_score": 0.06980076432228088,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 297,
+      "side_effect_id": 697,
+      "side_effect_name": "['paraesthesia oral']",
+      "prediction_score": 0.06910623610019684,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 298,
+      "side_effect_id": 955,
+      "side_effect_name": "['uveitis']",
+      "prediction_score": 0.06890971958637238,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 299,
+      "side_effect_id": 527,
+      "side_effect_name": "['laceration']",
+      "prediction_score": 0.06877905130386353,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 300,
+      "side_effect_id": 548,
+      "side_effect_name": "['liver function test abnormal']",
+      "prediction_score": 0.06746098399162292,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 301,
+      "side_effect_id": 933,
+      "side_effect_name": "['tumour lysis syndrome']",
+      "prediction_score": 0.06725849211215973,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 302,
+      "side_effect_id": 637,
+      "side_effect_name": "['neurotoxicity']",
+      "prediction_score": 0.06710588932037354,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 303,
+      "side_effect_id": 830,
+      "side_effect_name": "['serum sickness']",
+      "prediction_score": 0.06680692732334137,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 304,
+      "side_effect_id": 285,
+      "side_effect_name": "['electrocardiogram qt prolonged']",
+      "prediction_score": 0.06654031574726105,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 305,
+      "side_effect_id": 787,
+      "side_effect_name": "['regurgitation']",
+      "prediction_score": 0.06642308086156845,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 306,
+      "side_effect_id": 102,
+      "side_effect_name": "['bladder pain']",
+      "prediction_score": 0.06637759506702423,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 307,
+      "side_effect_id": 840,
+      "side_effect_name": "['skin burning sensation']",
+      "prediction_score": 0.06629036366939545,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 308,
+      "side_effect_id": 584,
+      "side_effect_name": "['micturition urgency']",
+      "prediction_score": 0.06606326997280121,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 309,
+      "side_effect_id": 867,
+      "side_effect_name": "['stevens-johnson syndrome']",
+      "prediction_score": 0.06460675597190857,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 310,
+      "side_effect_id": 962,
+      "side_effect_name": "['vasculitis']",
+      "prediction_score": 0.06446556746959686,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 311,
+      "side_effect_id": 323,
+      "side_effect_name": "['eye pain']",
+      "prediction_score": 0.06415173411369324,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 312,
+      "side_effect_id": 895,
+      "side_effect_name": "['tension']",
+      "prediction_score": 0.06399260461330414,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 313,
+      "side_effect_id": 863,
+      "side_effect_name": "['splenomegaly']",
+      "prediction_score": 0.06372200697660446,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 314,
+      "side_effect_id": 531,
+      "side_effect_name": "['lactic acidosis']",
+      "prediction_score": 0.06326546519994736,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 315,
+      "side_effect_id": 970,
+      "side_effect_name": "['vertigo']",
+      "prediction_score": 0.0629449412226677,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 316,
+      "side_effect_id": 154,
+      "side_effect_name": "['candida infection']",
+      "prediction_score": 0.06284536421298981,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 317,
+      "side_effect_id": 337,
+      "side_effect_name": "['feeling hot']",
+      "prediction_score": 0.06269128620624542,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 318,
+      "side_effect_id": 925,
+      "side_effect_name": "['toxicity to various agents']",
+      "prediction_score": 0.062497153878211975,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 319,
+      "side_effect_id": 776,
+      "side_effect_name": "['pyuria']",
+      "prediction_score": 0.061690494418144226,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 320,
+      "side_effect_id": 476,
+      "side_effect_name": "['ill-defined disorder']",
+      "prediction_score": 0.0616815984249115,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 321,
+      "side_effect_id": 316,
+      "side_effect_name": "['extravasation']",
+      "prediction_score": 0.061231911182403564,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 322,
+      "side_effect_id": 969,
+      "side_effect_name": "['ventricular tachycardia']",
+      "prediction_score": 0.06110765039920807,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 323,
+      "side_effect_id": 307,
+      "side_effect_name": "['erythema multiforme']",
+      "prediction_score": 0.06108289957046509,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 324,
+      "side_effect_id": 409,
+      "side_effect_name": "['hepatitis']",
+      "prediction_score": 0.06100413203239441,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 325,
+      "side_effect_id": 533,
+      "side_effect_name": "['laryngeal pain']",
+      "prediction_score": 0.060969382524490356,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 326,
+      "side_effect_id": 189,
+      "side_effect_name": "['clostridium difficile colitis']",
+      "prediction_score": 0.06007012724876404,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 327,
+      "side_effect_id": 346,
+      "side_effect_name": "['foetor hepaticus']",
+      "prediction_score": 0.05965092033147812,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 328,
+      "side_effect_id": 148,
+      "side_effect_name": "['bronchospasm paradoxical']",
+      "prediction_score": 0.05954208970069885,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 329,
+      "side_effect_id": 412,
+      "side_effect_name": "['hepatocellular injury']",
+      "prediction_score": 0.05923917889595032,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 330,
+      "side_effect_id": 417,
+      "side_effect_name": "['herpes virus infection']",
+      "prediction_score": 0.05920356512069702,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 331,
+      "side_effect_id": 484,
+      "side_effect_name": "['increased bronchial secretion']",
+      "prediction_score": 0.059088125824928284,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 332,
+      "side_effect_id": 440,
+      "side_effect_name": "['hyperpathia']",
+      "prediction_score": 0.05877775698900223,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 333,
+      "side_effect_id": 514,
+      "side_effect_name": "['iritis']",
+      "prediction_score": 0.05860768258571625,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 334,
+      "side_effect_id": 570,
+      "side_effect_name": "['melaena']",
+      "prediction_score": 0.05837853252887726,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 335,
+      "side_effect_id": 397,
+      "side_effect_name": "['hair disorder']",
+      "prediction_score": 0.05818359553813934,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 336,
+      "side_effect_id": 342,
+      "side_effect_name": "['flatulence']",
+      "prediction_score": 0.05809792876243591,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 337,
+      "side_effect_id": 300,
+      "side_effect_name": "['eosinophilia']",
+      "prediction_score": 0.058090582489967346,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 338,
+      "side_effect_id": 175,
+      "side_effect_name": "['cerebrovascular disorder']",
+      "prediction_score": 0.0576188862323761,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 339,
+      "side_effect_id": 565,
+      "side_effect_name": "['malignant melanoma']",
+      "prediction_score": 0.05738562345504761,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 340,
+      "side_effect_id": 314,
+      "side_effect_name": "['extrapyramidal disorder']",
+      "prediction_score": 0.05724219232797623,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 341,
+      "side_effect_id": 374,
+      "side_effect_name": "['glossitis']",
+      "prediction_score": 0.057223230600357056,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 342,
+      "side_effect_id": 57,
+      "side_effect_name": "['aplastic anaemia']",
+      "prediction_score": 0.0571850910782814,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 343,
+      "side_effect_id": 6,
+      "side_effect_name": "['abnormal dreams']",
+      "prediction_score": 0.056867167353630066,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 344,
+      "side_effect_id": 589,
+      "side_effect_name": "['motion sickness']",
+      "prediction_score": 0.05674578994512558,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 345,
+      "side_effect_id": 752,
+      "side_effect_name": "['protein total decreased']",
+      "prediction_score": 0.05617165565490723,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 346,
+      "side_effect_id": 329,
+      "side_effect_name": "['faecaloma']",
+      "prediction_score": 0.05573279410600662,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 347,
+      "side_effect_id": 903,
+      "side_effect_name": "['throat tightness']",
+      "prediction_score": 0.05568420886993408,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 348,
+      "side_effect_id": 21,
+      "side_effect_name": "['agitation']",
+      "prediction_score": 0.05545198917388916,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 349,
+      "side_effect_id": 396,
+      "side_effect_name": "['hair colour changes']",
+      "prediction_score": 0.055344030261039734,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 350,
+      "side_effect_id": 141,
+      "side_effect_name": "['breast pain']",
+      "prediction_score": 0.05528540909290314,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 351,
+      "side_effect_id": 294,
+      "side_effect_name": "['endocrine disorder']",
+      "prediction_score": 0.05521923303604126,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 352,
+      "side_effect_id": 7,
+      "side_effect_name": "['abnormal faeces']",
+      "prediction_score": 0.05511809140443802,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 353,
+      "side_effect_id": 657,
+      "side_effect_name": "['oesophageal spasm']",
+      "prediction_score": 0.05500975251197815,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 354,
+      "side_effect_id": 475,
+      "side_effect_name": "['ileus paralytic']",
+      "prediction_score": 0.0549159049987793,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 355,
+      "side_effect_id": 786,
+      "side_effect_name": "['rectal tenesmus']",
+      "prediction_score": 0.05484229326248169,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 356,
+      "side_effect_id": 389,
+      "side_effect_name": "['haemolytic anaemia']",
+      "prediction_score": 0.054795071482658386,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 357,
+      "side_effect_id": 429,
+      "side_effect_name": "['hypercalciuria']",
+      "prediction_score": 0.05474761873483658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 358,
+      "side_effect_id": 137,
+      "side_effect_name": "['breast disorder']",
+      "prediction_score": 0.054660946130752563,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 359,
+      "side_effect_id": 438,
+      "side_effect_name": "['hypermagnesaemia']",
+      "prediction_score": 0.054171979427337646,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 360,
+      "side_effect_id": 212,
+      "side_effect_name": "['corneal lesion']",
+      "prediction_score": 0.05395931005477905,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 361,
+      "side_effect_id": 593,
+      "side_effect_name": "['mucous membrane disorder']",
+      "prediction_score": 0.05383588373661041,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 362,
+      "side_effect_id": 164,
+      "side_effect_name": "['cardiomyopathy']",
+      "prediction_score": 0.05351035296916962,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 363,
+      "side_effect_id": 451,
+      "side_effect_name": "['hyperventilation']",
+      "prediction_score": 0.05348137021064758,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 364,
+      "side_effect_id": 574,
+      "side_effect_name": "['menopausal symptoms']",
+      "prediction_score": 0.05345486104488373,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 365,
+      "side_effect_id": 276,
+      "side_effect_name": "['ear disorder']",
+      "prediction_score": 0.05337395519018173,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 366,
+      "side_effect_id": 408,
+      "side_effect_name": "['hepatic steatosis']",
+      "prediction_score": 0.053361475467681885,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 367,
+      "side_effect_id": 453,
+      "side_effect_name": "['hypoaesthesia oral']",
+      "prediction_score": 0.05314488708972931,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 368,
+      "side_effect_id": 810,
+      "side_effect_name": "['rhinorrhoea']",
+      "prediction_score": 0.05298300087451935,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 369,
+      "side_effect_id": 91,
+      "side_effect_name": "['azotaemia']",
+      "prediction_score": 0.052977606654167175,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 370,
+      "side_effect_id": 220,
+      "side_effect_name": "['cyst']",
+      "prediction_score": 0.052869752049446106,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 371,
+      "side_effect_id": 86,
+      "side_effect_name": "['atrial flutter']",
+      "prediction_score": 0.052778273820877075,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 372,
+      "side_effect_id": 254,
+      "side_effect_name": "['drug eruption']",
+      "prediction_score": 0.05270148813724518,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 373,
+      "side_effect_id": 713,
+      "side_effect_name": "['peripheral motor neuropathy']",
+      "prediction_score": 0.05269390344619751,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 374,
+      "side_effect_id": 111,
+      "side_effect_name": "['blood calcium decreased']",
+      "prediction_score": 0.052522435784339905,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 375,
+      "side_effect_id": 804,
+      "side_effect_name": "['retinal haemorrhage']",
+      "prediction_score": 0.052386485040187836,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 376,
+      "side_effect_id": 578,
+      "side_effect_name": "['menstruation irregular']",
+      "prediction_score": 0.052355870604515076,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 377,
+      "side_effect_id": 88,
+      "side_effect_name": "['atrioventricular block complete']",
+      "prediction_score": 0.05231963098049164,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 378,
+      "side_effect_id": 952,
+      "side_effect_name": "['uterine haemorrhage']",
+      "prediction_score": 0.05225652456283569,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 379,
+      "side_effect_id": 711,
+      "side_effect_name": "['peripheral coldness']",
+      "prediction_score": 0.05218115448951721,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 380,
+      "side_effect_id": 51,
+      "side_effect_name": "['antisocial personality disorder']",
+      "prediction_score": 0.05214636027812958,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 381,
+      "side_effect_id": 943,
+      "side_effect_name": "['urinary incontinence']",
+      "prediction_score": 0.05209064483642578,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 382,
+      "side_effect_id": 552,
+      "side_effect_name": "['loss of libido']",
+      "prediction_score": 0.05202547460794449,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 383,
+      "side_effect_id": 467,
+      "side_effect_name": "['hyporeflexia']",
+      "prediction_score": 0.051824524998664856,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 384,
+      "side_effect_id": 181,
+      "side_effect_name": "['chills']",
+      "prediction_score": 0.05160747468471527,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 385,
+      "side_effect_id": 328,
+      "side_effect_name": "['faecalith']",
+      "prediction_score": 0.05158315598964691,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 386,
+      "side_effect_id": 343,
+      "side_effect_name": "['fluid overload']",
+      "prediction_score": 0.051430001854896545,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 387,
+      "side_effect_id": 633,
+      "side_effect_name": "['neuritis']",
+      "prediction_score": 0.051343873143196106,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 388,
+      "side_effect_id": 70,
+      "side_effect_name": "['apraxia']",
+      "prediction_score": 0.05126233398914337,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 389,
+      "side_effect_id": 166,
+      "side_effect_name": "['carpal tunnel syndrome']",
+      "prediction_score": 0.051095426082611084,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 390,
+      "side_effect_id": 520,
+      "side_effect_name": "['jaundice cholestatic']",
+      "prediction_score": 0.051079489290714264,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 391,
+      "side_effect_id": 564,
+      "side_effect_name": "['malaise']",
+      "prediction_score": 0.05100756883621216,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 392,
+      "side_effect_id": 377,
+      "side_effect_name": "['glycosuria']",
+      "prediction_score": 0.05100184679031372,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 393,
+      "side_effect_id": 910,
+      "side_effect_name": "['thyroid neoplasm']",
+      "prediction_score": 0.05096451938152313,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 394,
+      "side_effect_id": 478,
+      "side_effect_name": "['impaired gastric emptying']",
+      "prediction_score": 0.05081409215927124,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 395,
+      "side_effect_id": 78,
+      "side_effect_name": "['asocial behaviour']",
+      "prediction_score": 0.050795674324035645,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 396,
+      "side_effect_id": 266,
+      "side_effect_name": "['dyskinesia']",
+      "prediction_score": 0.050773367285728455,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 397,
+      "side_effect_id": 493,
+      "side_effect_name": "['infusion site pain']",
+      "prediction_score": 0.05077190697193146,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 398,
+      "side_effect_id": 873,
+      "side_effect_name": "['subarachnoid haemorrhage']",
+      "prediction_score": 0.0507662296295166,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 399,
+      "side_effect_id": 231,
+      "side_effect_name": "['dental caries']",
+      "prediction_score": 0.05055058002471924,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 400,
+      "side_effect_id": 964,
+      "side_effect_name": "['vasospasm']",
+      "prediction_score": 0.050462014973163605,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 401,
+      "side_effect_id": 831,
+      "side_effect_name": "['sexual dysfunction']",
+      "prediction_score": 0.05045327544212341,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 402,
+      "side_effect_id": 507,
+      "side_effect_name": "['intermittent claudication']",
+      "prediction_score": 0.05026055872440338,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 403,
+      "side_effect_id": 990,
+      "side_effect_name": "['wound infection']",
+      "prediction_score": 0.05024541914463043,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 404,
+      "side_effect_id": 248,
+      "side_effect_name": "['disseminated intravascular coagulation']",
+      "prediction_score": 0.050234586000442505,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 405,
+      "side_effect_id": 644,
+      "side_effect_name": "['nocturia']",
+      "prediction_score": 0.050002217292785645,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 406,
+      "side_effect_id": 224,
+      "side_effect_name": "['deafness']",
+      "prediction_score": 0.04991921782493591,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 407,
+      "side_effect_id": 203,
+      "side_effect_name": "['conjunctival oedema']",
+      "prediction_score": 0.049763597548007965,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 408,
+      "side_effect_id": 848,
+      "side_effect_name": "['skin irritation']",
+      "prediction_score": 0.04959791898727417,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 409,
+      "side_effect_id": 766,
+      "side_effect_name": "['pulmonary congestion']",
+      "prediction_score": 0.049575790762901306,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 410,
+      "side_effect_id": 884,
+      "side_effect_name": "['systemic lupus erythematosus']",
+      "prediction_score": 0.049555495381355286,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 411,
+      "side_effect_id": 90,
+      "side_effect_name": "['autonomic nervous system imbalance']",
+      "prediction_score": 0.04953925311565399,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 412,
+      "side_effect_id": 658,
+      "side_effect_name": "['oesophageal stenosis']",
+      "prediction_score": 0.04952140152454376,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 413,
+      "side_effect_id": 413,
+      "side_effect_name": "['hepatomegaly']",
+      "prediction_score": 0.049383990466594696,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 414,
+      "side_effect_id": 474,
+      "side_effect_name": "['ileus']",
+      "prediction_score": 0.04918511211872101,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 415,
+      "side_effect_id": 312,
+      "side_effect_name": "['exophthalmos']",
+      "prediction_score": 0.0491647869348526,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 416,
+      "side_effect_id": 645,
+      "side_effect_name": "['nodal arrhythmia']",
+      "prediction_score": 0.04896971583366394,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 417,
+      "side_effect_id": 347,
+      "side_effect_name": "['folliculitis']",
+      "prediction_score": 0.04889896512031555,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 418,
+      "side_effect_id": 501,
+      "side_effect_name": "['injection site pruritus']",
+      "prediction_score": 0.048639968037605286,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 419,
+      "side_effect_id": 654,
+      "side_effect_name": "['odynophagia']",
+      "prediction_score": 0.04857522249221802,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 420,
+      "side_effect_id": 582,
+      "side_effect_name": "['metrorrhagia']",
+      "prediction_score": 0.0484960675239563,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 421,
+      "side_effect_id": 317,
+      "side_effect_name": "['eye discharge']",
+      "prediction_score": 0.04836535453796387,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 422,
+      "side_effect_id": 350,
+      "side_effect_name": "['fungal infection']",
+      "prediction_score": 0.04819110035896301,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 423,
+      "side_effect_id": 513,
+      "side_effect_name": "['intraocular pressure increased']",
+      "prediction_score": 0.048169247806072235,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 424,
+      "side_effect_id": 511,
+      "side_effect_name": "['intestinal perforation']",
+      "prediction_score": 0.04816484451293945,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 425,
+      "side_effect_id": 10,
+      "side_effect_name": "['acidosis']",
+      "prediction_score": 0.04815524071455002,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 426,
+      "side_effect_id": 247,
+      "side_effect_name": "['disorientation']",
+      "prediction_score": 0.048004813492298126,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 427,
+      "side_effect_id": 817,
+      "side_effect_name": "['scab']",
+      "prediction_score": 0.047925323247909546,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 428,
+      "side_effect_id": 103,
+      "side_effect_name": "['bleeding time prolonged']",
+      "prediction_score": 0.04791271686553955,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 429,
+      "side_effect_id": 49,
+      "side_effect_name": "['anorgasmia']",
+      "prediction_score": 0.04784388840198517,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 430,
+      "side_effect_id": 878,
+      "side_effect_name": "['sunburn']",
+      "prediction_score": 0.04782307893037796,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 431,
+      "side_effect_id": 325,
+      "side_effect_name": "['eye swelling']",
+      "prediction_score": 0.04780837893486023,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 432,
+      "side_effect_id": 879,
+      "side_effect_name": "['supraventricular extrasystoles']",
+      "prediction_score": 0.04777231812477112,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 433,
+      "side_effect_id": 591,
+      "side_effect_name": "['movement disorder']",
+      "prediction_score": 0.047659389674663544,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 434,
+      "side_effect_id": 820,
+      "side_effect_name": "['scleritis']",
+      "prediction_score": 0.04754028469324112,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 435,
+      "side_effect_id": 115,
+      "side_effect_name": "['blood disorder']",
+      "prediction_score": 0.04747024178504944,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 436,
+      "side_effect_id": 512,
+      "side_effect_name": "['intracranial pressure increased']",
+      "prediction_score": 0.04740642011165619,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 437,
+      "side_effect_id": 311,
+      "side_effect_name": "['excoriation']",
+      "prediction_score": 0.04726170003414154,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 438,
+      "side_effect_id": 61,
+      "side_effect_name": "['application site dryness']",
+      "prediction_score": 0.047216035425662994,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 439,
+      "side_effect_id": 410,
+      "side_effect_name": "['hepatitis cholestatic']",
+      "prediction_score": 0.046912625432014465,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 440,
+      "side_effect_id": 139,
+      "side_effect_name": "['breast enlargement']",
+      "prediction_score": 0.04683315008878708,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 441,
+      "side_effect_id": 725,
+      "side_effect_name": "['photosensitivity reaction']",
+      "prediction_score": 0.04681620001792908,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 442,
+      "side_effect_id": 264,
+      "side_effect_name": "['dysarthria']",
+      "prediction_score": 0.04680393636226654,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 443,
+      "side_effect_id": 360,
+      "side_effect_name": "['gastrointestinal carcinoma']",
+      "prediction_score": 0.04667378216981888,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 444,
+      "side_effect_id": 953,
+      "side_effect_name": "['uterine leiomyoma']",
+      "prediction_score": 0.04660767316818237,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 445,
+      "side_effect_id": 618,
+      "side_effect_name": "['nasal discomfort']",
+      "prediction_score": 0.04659562557935715,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 446,
+      "side_effect_id": 29,
+      "side_effect_name": "['altered state of consciousness']",
+      "prediction_score": 0.046472758054733276,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 447,
+      "side_effect_id": 708,
+      "side_effect_name": "['perineal pain']",
+      "prediction_score": 0.04644840955734253,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 448,
+      "side_effect_id": 356,
+      "side_effect_name": "['gangrene']",
+      "prediction_score": 0.046223968267440796,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 449,
+      "side_effect_id": 682,
+      "side_effect_name": "['ovarian disorder']",
+      "prediction_score": 0.04602549970149994,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 450,
+      "side_effect_id": 219,
+      "side_effect_name": "['cyanosis']",
+      "prediction_score": 0.045973777770996094,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 451,
+      "side_effect_id": 272,
+      "side_effect_name": "['dysphoria']",
+      "prediction_score": 0.04595477133989334,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 452,
+      "side_effect_id": 199,
+      "side_effect_name": "['confusional state']",
+      "prediction_score": 0.04589693248271942,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 453,
+      "side_effect_id": 680,
+      "side_effect_name": "['ototoxicity']",
+      "prediction_score": 0.04589109122753143,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 454,
+      "side_effect_id": 971,
+      "side_effect_name": "['vestibular disorder']",
+      "prediction_score": 0.04583704471588135,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 455,
+      "side_effect_id": 915,
+      "side_effect_name": "['tongue oedema']",
+      "prediction_score": 0.045789219439029694,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 456,
+      "side_effect_id": 450,
+      "side_effect_name": "['hyperuricaemia']",
+      "prediction_score": 0.045781999826431274,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 457,
+      "side_effect_id": 546,
+      "side_effect_name": "['lipodystrophy acquired']",
+      "prediction_score": 0.04575134813785553,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 458,
+      "side_effect_id": 286,
+      "side_effect_name": "['electrocardiogram st segment depression']",
+      "prediction_score": 0.04574309289455414,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 459,
+      "side_effect_id": 127,
+      "side_effect_name": "['blood urine present']",
+      "prediction_score": 0.04555785655975342,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 460,
+      "side_effect_id": 920,
+      "side_effect_name": "['tooth infection']",
+      "prediction_score": 0.045465581119060516,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 461,
+      "side_effect_id": 249,
+      "side_effect_name": "['disturbance in attention']",
+      "prediction_score": 0.04544386267662048,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 462,
+      "side_effect_id": 772,
+      "side_effect_name": "['punctate keratitis']",
+      "prediction_score": 0.04517447203397751,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 463,
+      "side_effect_id": 50,
+      "side_effect_name": "['antisocial behaviour']",
+      "prediction_score": 0.04513401538133621,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 464,
+      "side_effect_id": 856,
+      "side_effect_name": "['sleep disorder']",
+      "prediction_score": 0.04507149010896683,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 465,
+      "side_effect_id": 128,
+      "side_effect_name": "['body temperature decreased']",
+      "prediction_score": 0.044952794909477234,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 466,
+      "side_effect_id": 324,
+      "side_effect_name": "['eye pruritus']",
+      "prediction_score": 0.04494961351156235,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 467,
+      "side_effect_id": 18,
+      "side_effect_name": "['affective disorder']",
+      "prediction_score": 0.04490993916988373,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 468,
+      "side_effect_id": 274,
+      "side_effect_name": "['dyspnoea exertional']",
+      "prediction_score": 0.04490792751312256,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 469,
+      "side_effect_id": 265,
+      "side_effect_name": "['dysgeusia']",
+      "prediction_score": 0.04484879970550537,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 470,
+      "side_effect_id": 421,
+      "side_effect_name": "['hirsutism']",
+      "prediction_score": 0.04475244879722595,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 471,
+      "side_effect_id": 331,
+      "side_effect_name": "['fasting']",
+      "prediction_score": 0.04470361769199371,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 472,
+      "side_effect_id": 339,
+      "side_effect_name": "['fibrocystic breast disease']",
+      "prediction_score": 0.04462219774723053,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 473,
+      "side_effect_id": 718,
+      "side_effect_name": "['petechiae']",
+      "prediction_score": 0.04460008442401886,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 474,
+      "side_effect_id": 499,
+      "side_effect_name": "['injection site inflammation']",
+      "prediction_score": 0.044595569372177124,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 475,
+      "side_effect_id": 256,
+      "side_effect_name": "['drug ineffective']",
+      "prediction_score": 0.044497787952423096,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 476,
+      "side_effect_id": 924,
+      "side_effect_name": "['toxic epidermal necrolysis']",
+      "prediction_score": 0.044479355216026306,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 477,
+      "side_effect_id": 399,
+      "side_effect_name": "['hallucination']",
+      "prediction_score": 0.0444333553314209,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 478,
+      "side_effect_id": 126,
+      "side_effect_name": "['blood uric acid increased']",
+      "prediction_score": 0.04428999125957489,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 479,
+      "side_effect_id": 448,
+      "side_effect_name": "['hypertrichosis']",
+      "prediction_score": 0.04416845738887787,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 480,
+      "side_effect_id": 874,
+      "side_effect_name": "['subdural haematoma']",
+      "prediction_score": 0.044084250926971436,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 481,
+      "side_effect_id": 169,
+      "side_effect_name": "['cellulitis']",
+      "prediction_score": 0.04403269290924072,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 482,
+      "side_effect_id": 162,
+      "side_effect_name": "['cardiogenic shock']",
+      "prediction_score": 0.04400824010372162,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 483,
+      "side_effect_id": 843,
+      "side_effect_name": "['skin disorder']",
+      "prediction_score": 0.04400406777858734,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 484,
+      "side_effect_id": 518,
+      "side_effect_name": "['ischaemia']",
+      "prediction_score": 0.043993547558784485,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 485,
+      "side_effect_id": 67,
+      "side_effect_name": "['application site rash']",
+      "prediction_score": 0.0439700186252594,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 486,
+      "side_effect_id": 233,
+      "side_effect_name": "['depressed mood']",
+      "prediction_score": 0.04388068616390228,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 487,
+      "side_effect_id": 707,
+      "side_effect_name": "['pericarditis']",
+      "prediction_score": 0.043824031949043274,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 488,
+      "side_effect_id": 366,
+      "side_effect_name": "['gastrointestinal ulcer']",
+      "prediction_score": 0.04377038776874542,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 489,
+      "side_effect_id": 228,
+      "side_effect_name": "['delirium']",
+      "prediction_score": 0.043632835149765015,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 490,
+      "side_effect_id": 263,
+      "side_effect_name": "['dysaesthesia']",
+      "prediction_score": 0.04360887408256531,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 491,
+      "side_effect_id": 860,
+      "side_effect_name": "['somnambulism']",
+      "prediction_score": 0.04351985454559326,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 492,
+      "side_effect_id": 302,
+      "side_effect_name": "['epigastric discomfort']",
+      "prediction_score": 0.043469712138175964,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 493,
+      "side_effect_id": 888,
+      "side_effect_name": "['telangiectasia']",
+      "prediction_score": 0.04341655224561691,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 494,
+      "side_effect_id": 649,
+      "side_effect_name": "['nuchal rigidity']",
+      "prediction_score": 0.043384045362472534,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 495,
+      "side_effect_id": 811,
+      "side_effect_name": "['rhonchi']",
+      "prediction_score": 0.04326361417770386,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 496,
+      "side_effect_id": 724,
+      "side_effect_name": "['photopsia']",
+      "prediction_score": 0.04325679689645767,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 497,
+      "side_effect_id": 523,
+      "side_effect_name": "['keratitis']",
+      "prediction_score": 0.04323357343673706,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 498,
+      "side_effect_id": 444,
+      "side_effect_name": "['hypersomnia']",
+      "prediction_score": 0.043134599924087524,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 499,
+      "side_effect_id": 434,
+      "side_effect_name": "['hyperkeratosis']",
+      "prediction_score": 0.04294082522392273,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 500,
+      "side_effect_id": 993,
+      "side_effect_name": "['yawning']",
+      "prediction_score": 0.0429336354136467,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 501,
+      "side_effect_id": 218,
+      "side_effect_name": "[\"cushing's syndrome\"]",
+      "prediction_score": 0.04291069507598877,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 502,
+      "side_effect_id": 262,
+      "side_effect_name": "['duodenitis']",
+      "prediction_score": 0.042853690683841705,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 503,
+      "side_effect_id": 588,
+      "side_effect_name": "['mood swings']",
+      "prediction_score": 0.04276706278324127,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 504,
+      "side_effect_id": 104,
+      "side_effect_name": "['blepharitis']",
+      "prediction_score": 0.04272407293319702,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 505,
+      "side_effect_id": 806,
+      "side_effect_name": "['rhabdomyolysis']",
+      "prediction_score": 0.042693376541137695,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 506,
+      "side_effect_id": 667,
+      "side_effect_name": "['oral herpes']",
+      "prediction_score": 0.04264485836029053,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 507,
+      "side_effect_id": 701,
+      "side_effect_name": "['parkinsonism']",
+      "prediction_score": 0.04262305051088333,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 508,
+      "side_effect_id": 89,
+      "side_effect_name": "['atrioventricular block first degree']",
+      "prediction_score": 0.042599305510520935,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 509,
+      "side_effect_id": 822,
+      "side_effect_name": "['seborrhoeic dermatitis']",
+      "prediction_score": 0.04242381453514099,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 510,
+      "side_effect_id": 456,
+      "side_effect_name": "['hypochloraemia']",
+      "prediction_score": 0.042408913373947144,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 511,
+      "side_effect_id": 681,
+      "side_effect_name": "['ovarian cyst']",
+      "prediction_score": 0.04234911501407623,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 512,
+      "side_effect_id": 935,
+      "side_effect_name": "['ulcerative keratitis']",
+      "prediction_score": 0.042337484657764435,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 513,
+      "side_effect_id": 358,
+      "side_effect_name": "['gastritis']",
+      "prediction_score": 0.04228508472442627,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 514,
+      "side_effect_id": 898,
+      "side_effect_name": "['tetany']",
+      "prediction_score": 0.042281463742256165,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 515,
+      "side_effect_id": 908,
+      "side_effect_name": "['thrombotic thrombocytopenic purpura']",
+      "prediction_score": 0.04221546649932861,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 516,
+      "side_effect_id": 909,
+      "side_effect_name": "['thyroid disorder']",
+      "prediction_score": 0.04220940172672272,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 517,
+      "side_effect_id": 977,
+      "side_effect_name": "['visual impairment']",
+      "prediction_score": 0.042197614908218384,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 518,
+      "side_effect_id": 866,
+      "side_effect_name": "['status epilepticus']",
+      "prediction_score": 0.042116232216358185,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 519,
+      "side_effect_id": 275,
+      "side_effect_name": "['dysuria']",
+      "prediction_score": 0.04210655391216278,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 520,
+      "side_effect_id": 854,
+      "side_effect_name": "['skin ulcer']",
+      "prediction_score": 0.0421004593372345,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 521,
+      "side_effect_id": 699,
+      "side_effect_name": "['paranoia']",
+      "prediction_score": 0.042083725333213806,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 522,
+      "side_effect_id": 107,
+      "side_effect_name": "['blister']",
+      "prediction_score": 0.041978463530540466,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 523,
+      "side_effect_id": 689,
+      "side_effect_name": "['pancreatitis']",
+      "prediction_score": 0.04186183214187622,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 524,
+      "side_effect_id": 587,
+      "side_effect_name": "['monocytosis']",
+      "prediction_score": 0.041852593421936035,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 525,
+      "side_effect_id": 538,
+      "side_effect_name": "['leukoderma']",
+      "prediction_score": 0.041748225688934326,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 526,
+      "side_effect_id": 159,
+      "side_effect_name": "['cardiac flutter']",
+      "prediction_score": 0.04168274998664856,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 527,
+      "side_effect_id": 469,
+      "side_effect_name": "['hypothermia']",
+      "prediction_score": 0.0416339635848999,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 528,
+      "side_effect_id": 947,
+      "side_effect_name": "['urine abnormality']",
+      "prediction_score": 0.04159395396709442,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 529,
+      "side_effect_id": 965,
+      "side_effect_name": "['venous thrombosis']",
+      "prediction_score": 0.04151429235935211,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 530,
+      "side_effect_id": 161,
+      "side_effect_name": "['cardiac output decreased']",
+      "prediction_score": 0.04138357937335968,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 531,
+      "side_effect_id": 987,
+      "side_effect_name": "['white blood cell count decreased']",
+      "prediction_score": 0.04104547202587128,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 532,
+      "side_effect_id": 739,
+      "side_effect_name": "['polyneuropathy']",
+      "prediction_score": 0.04100492596626282,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 533,
+      "side_effect_id": 678,
+      "side_effect_name": "['otitis externa']",
+      "prediction_score": 0.04094155132770538,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 534,
+      "side_effect_id": 959,
+      "side_effect_name": "['varicose vein']",
+      "prediction_score": 0.04080517590045929,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 535,
+      "side_effect_id": 653,
+      "side_effect_name": "['oculogyric crisis']",
+      "prediction_score": 0.04079677164554596,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 536,
+      "side_effect_id": 292,
+      "side_effect_name": "['emphysema']",
+      "prediction_score": 0.04071413725614548,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 537,
+      "side_effect_id": 30,
+      "side_effect_name": "['alveolitis allergic']",
+      "prediction_score": 0.0405975878238678,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 538,
+      "side_effect_id": 662,
+      "side_effect_name": "['onychomycosis']",
+      "prediction_score": 0.04054877907037735,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 539,
+      "side_effect_id": 696,
+      "side_effect_name": "['paraesthesia']",
+      "prediction_score": 0.04043936729431152,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 540,
+      "side_effect_id": 321,
+      "side_effect_name": "['eye irritation']",
+      "prediction_score": 0.040389284491539,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 541,
+      "side_effect_id": 722,
+      "side_effect_name": "['phlebitis']",
+      "prediction_score": 0.04037505388259888,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 542,
+      "side_effect_id": 659,
+      "side_effect_name": "['oesophageal ulcer']",
+      "prediction_score": 0.04037070274353027,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 543,
+      "side_effect_id": 122,
+      "side_effect_name": "['blood pressure increased']",
+      "prediction_score": 0.040284112095832825,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 544,
+      "side_effect_id": 481,
+      "side_effect_name": "['inappropriate antidiuretic hormone secretion']",
+      "prediction_score": 0.040268272161483765,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 545,
+      "side_effect_id": 547,
+      "side_effect_name": "['liver disorder']",
+      "prediction_score": 0.039882808923721313,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 546,
+      "side_effect_id": 83,
+      "side_effect_name": "['ataxia']",
+      "prediction_score": 0.039882004261016846,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 547,
+      "side_effect_id": 98,
+      "side_effect_name": "['biliary colic']",
+      "prediction_score": 0.03974522650241852,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 548,
+      "side_effect_id": 383,
+      "side_effect_name": "['haematochezia']",
+      "prediction_score": 0.039732806384563446,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 549,
+      "side_effect_id": 887,
+      "side_effect_name": "['tardive dyskinesia']",
+      "prediction_score": 0.03971080482006073,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 550,
+      "side_effect_id": 376,
+      "side_effect_name": "['glucose tolerance impaired']",
+      "prediction_score": 0.03968364745378494,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 551,
+      "side_effect_id": 626,
+      "side_effect_name": "['nephrolithiasis']",
+      "prediction_score": 0.039545536041259766,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 552,
+      "side_effect_id": 172,
+      "side_effect_name": "['cerebral infarction']",
+      "prediction_score": 0.03952088952064514,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 553,
+      "side_effect_id": 319,
+      "side_effect_name": "['eye haemorrhage']",
+      "prediction_score": 0.03942124545574188,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 554,
+      "side_effect_id": 165,
+      "side_effect_name": "['cardiovascular disorder']",
+      "prediction_score": 0.03940257430076599,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 555,
+      "side_effect_id": 852,
+      "side_effect_name": "['skin papilloma']",
+      "prediction_score": 0.03931906819343567,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 556,
+      "side_effect_id": 384,
+      "side_effect_name": "['haematocrit decreased']",
+      "prediction_score": 0.039304912090301514,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 557,
+      "side_effect_id": 461,
+      "side_effect_name": "['hypokinesia']",
+      "prediction_score": 0.03930041193962097,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 558,
+      "side_effect_id": 647,
+      "side_effect_name": "['non-cardiac chest pain']",
+      "prediction_score": 0.03922565281391144,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 559,
+      "side_effect_id": 619,
+      "side_effect_name": "['nasal dryness']",
+      "prediction_score": 0.03921686112880707,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 560,
+      "side_effect_id": 229,
+      "side_effect_name": "['delusion']",
+      "prediction_score": 0.03909473121166229,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 561,
+      "side_effect_id": 485,
+      "side_effect_name": "['increased tendency to bruise']",
+      "prediction_score": 0.03885670006275177,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 562,
+      "side_effect_id": 880,
+      "side_effect_name": "['supraventricular tachycardia']",
+      "prediction_score": 0.03873121738433838,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 563,
+      "side_effect_id": 186,
+      "side_effect_name": "['chromatopsia']",
+      "prediction_score": 0.03870555758476257,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 564,
+      "side_effect_id": 436,
+      "side_effect_name": "['hyperlactacidaemia']",
+      "prediction_score": 0.03861123323440552,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 565,
+      "side_effect_id": 308,
+      "side_effect_name": "['erythema nodosum']",
+      "prediction_score": 0.03857983648777008,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 566,
+      "side_effect_id": 341,
+      "side_effect_name": "['flat affect']",
+      "prediction_score": 0.03856906294822693,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 567,
+      "side_effect_id": 369,
+      "side_effect_name": "['genital candidiasis']",
+      "prediction_score": 0.038495972752571106,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 568,
+      "side_effect_id": 979,
+      "side_effect_name": "['vulvovaginal candidiasis']",
+      "prediction_score": 0.038455888628959656,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 569,
+      "side_effect_id": 283,
+      "side_effect_name": "['ejaculation failure']",
+      "prediction_score": 0.038364045321941376,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 570,
+      "side_effect_id": 23,
+      "side_effect_name": "['akathisia']",
+      "prediction_score": 0.038352370262145996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 571,
+      "side_effect_id": 37,
+      "side_effect_name": "['anaemia megaloblastic']",
+      "prediction_score": 0.0383305549621582,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 572,
+      "side_effect_id": 134,
+      "side_effect_name": "['brain oedema']",
+      "prediction_score": 0.03824034333229065,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 573,
+      "side_effect_id": 357,
+      "side_effect_name": "['gastric ulcer']",
+      "prediction_score": 0.03821570426225662,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 574,
+      "side_effect_id": 889,
+      "side_effect_name": "['temperature intolerance']",
+      "prediction_score": 0.038118839263916016,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 575,
+      "side_effect_id": 40,
+      "side_effect_name": "['anaphylactoid reaction']",
+      "prediction_score": 0.03805285692214966,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 576,
+      "side_effect_id": 966,
+      "side_effect_name": "['ventricular arrhythmia']",
+      "prediction_score": 0.03805248439311981,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 577,
+      "side_effect_id": 899,
+      "side_effect_name": "['therapeutic response unexpected']",
+      "prediction_score": 0.038044363260269165,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 578,
+      "side_effect_id": 760,
+      "side_effect_name": "['pruritus genital']",
+      "prediction_score": 0.03796612471342087,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 579,
+      "side_effect_id": 155,
+      "side_effect_name": "['cardiac arrest']",
+      "prediction_score": 0.03795984387397766,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 580,
+      "side_effect_id": 797,
+      "side_effect_name": "['respiratory tract congestion']",
+      "prediction_score": 0.03790370374917984,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 581,
+      "side_effect_id": 932,
+      "side_effect_name": "['tubulointerstitial nephritis']",
+      "prediction_score": 0.037863850593566895,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 582,
+      "side_effect_id": 373,
+      "side_effect_name": "['glaucoma']",
+      "prediction_score": 0.037828683853149414,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 583,
+      "side_effect_id": 577,
+      "side_effect_name": "['menstrual disorder']",
+      "prediction_score": 0.03776007890701294,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 584,
+      "side_effect_id": 839,
+      "side_effect_name": "['skin atrophy']",
+      "prediction_score": 0.03770256042480469,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 585,
+      "side_effect_id": 420,
+      "side_effect_name": "['hiccups']",
+      "prediction_score": 0.03767702728509903,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 586,
+      "side_effect_id": 22,
+      "side_effect_name": "['agranulocytosis']",
+      "prediction_score": 0.03754444420337677,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 587,
+      "side_effect_id": 11,
+      "side_effect_name": "['acne']",
+      "prediction_score": 0.03747139871120453,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 588,
+      "side_effect_id": 261,
+      "side_effect_name": "['duodenal ulcer']",
+      "prediction_score": 0.03744286298751831,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 589,
+      "side_effect_id": 192,
+      "side_effect_name": "['cold sweat']",
+      "prediction_score": 0.0373653769493103,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 590,
+      "side_effect_id": 119,
+      "side_effect_name": "['blood phosphorus decreased']",
+      "prediction_score": 0.03735385835170746,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 591,
+      "side_effect_id": 721,
+      "side_effect_name": "['pharyngitis streptococcal']",
+      "prediction_score": 0.037286221981048584,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 592,
+      "side_effect_id": 865,
+      "side_effect_name": "['staphylococcal infection']",
+      "prediction_score": 0.037248656153678894,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 593,
+      "side_effect_id": 418,
+      "side_effect_name": "['herpes zoster']",
+      "prediction_score": 0.03722977638244629,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 594,
+      "side_effect_id": 378,
+      "side_effect_name": "['goitre']",
+      "prediction_score": 0.0371859073638916,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 595,
+      "side_effect_id": 395,
+      "side_effect_name": "['haemorrhoids']",
+      "prediction_score": 0.03717789053916931,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 596,
+      "side_effect_id": 783,
+      "side_effect_name": "['rash papular']",
+      "prediction_score": 0.03716360777616501,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 597,
+      "side_effect_id": 293,
+      "side_effect_name": "['encephalopathy']",
+      "prediction_score": 0.03715112805366516,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 598,
+      "side_effect_id": 209,
+      "side_effect_name": "['conversion disorder']",
+      "prediction_score": 0.03707970678806305,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 599,
+      "side_effect_id": 561,
+      "side_effect_name": "['lymphoma']",
+      "prediction_score": 0.036958247423172,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 600,
+      "side_effect_id": 435,
+      "side_effect_name": "['hyperkinesia']",
+      "prediction_score": 0.036950282752513885,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 601,
+      "side_effect_id": 237,
+      "side_effect_name": "['dermatitis acneiform']",
+      "prediction_score": 0.036910951137542725,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 602,
+      "side_effect_id": 761,
+      "side_effect_name": "['pseudolymphoma']",
+      "prediction_score": 0.036877937614917755,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 603,
+      "side_effect_id": 170,
+      "side_effect_name": "['cerebellar syndrome']",
+      "prediction_score": 0.03684915602207184,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 604,
+      "side_effect_id": 526,
+      "side_effect_name": "['labyrinthitis']",
+      "prediction_score": 0.03683839738368988,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 605,
+      "side_effect_id": 974,
+      "side_effect_name": "['viral upper respiratory tract infection']",
+      "prediction_score": 0.0368163138628006,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 606,
+      "side_effect_id": 598,
+      "side_effect_name": "['muscle rigidity']",
+      "prediction_score": 0.03679046034812927,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 607,
+      "side_effect_id": 818,
+      "side_effect_name": "['schizophreniform disorder']",
+      "prediction_score": 0.036764949560165405,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 608,
+      "side_effect_id": 829,
+      "side_effect_name": "['serotonin syndrome']",
+      "prediction_score": 0.03673800826072693,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 609,
+      "side_effect_id": 845,
+      "side_effect_name": "['skin hyperpigmentation']",
+      "prediction_score": 0.03667724132537842,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 610,
+      "side_effect_id": 99,
+      "side_effect_name": "['bipolar disorder']",
+      "prediction_score": 0.03659083694219589,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 611,
+      "side_effect_id": 5,
+      "side_effect_name": "['abnormal behaviour']",
+      "prediction_score": 0.03650107979774475,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 612,
+      "side_effect_id": 290,
+      "side_effect_name": "['embolism venous']",
+      "prediction_score": 0.03648528456687927,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 613,
+      "side_effect_id": 415,
+      "side_effect_name": "['hernia']",
+      "prediction_score": 0.036428555846214294,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 614,
+      "side_effect_id": 773,
+      "side_effect_name": "['pupils unequal']",
+      "prediction_score": 0.03641923516988754,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 615,
+      "side_effect_id": 986,
+      "side_effect_name": "['wheezing']",
+      "prediction_score": 0.03638729453086853,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 616,
+      "side_effect_id": 989,
+      "side_effect_name": "['withdrawal syndrome']",
+      "prediction_score": 0.03634554147720337,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 617,
+      "side_effect_id": 814,
+      "side_effect_name": "['salivary gland enlargement']",
+      "prediction_score": 0.03625447303056717,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 618,
+      "side_effect_id": 948,
+      "side_effect_name": "['urine analysis abnormal']",
+      "prediction_score": 0.03618454933166504,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 619,
+      "side_effect_id": 52,
+      "side_effect_name": "['anuria']",
+      "prediction_score": 0.03618156164884567,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 620,
+      "side_effect_id": 872,
+      "side_effect_name": "['stupor']",
+      "prediction_score": 0.03615391254425049,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 621,
+      "side_effect_id": 603,
+      "side_effect_name": "['musculoskeletal chest pain']",
+      "prediction_score": 0.036052405834198,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 622,
+      "side_effect_id": 791,
+      "side_effect_name": "['renal tubular necrosis']",
+      "prediction_score": 0.03598281741142273,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 623,
+      "side_effect_id": 614,
+      "side_effect_name": "['myopathy']",
+      "prediction_score": 0.035962462425231934,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 624,
+      "side_effect_id": 672,
+      "side_effect_name": "['oropharyngeal pain']",
+      "prediction_score": 0.035942040383815765,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 625,
+      "side_effect_id": 757,
+      "side_effect_name": "['prurigo']",
+      "prediction_score": 0.035937607288360596,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 626,
+      "side_effect_id": 535,
+      "side_effect_name": "['laryngospasm']",
+      "prediction_score": 0.03588986396789551,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 627,
+      "side_effect_id": 542,
+      "side_effect_name": "['libido increased']",
+      "prediction_score": 0.0358307808637619,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 628,
+      "side_effect_id": 69,
+      "side_effect_name": "['application site vesicles']",
+      "prediction_score": 0.03582780063152313,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 629,
+      "side_effect_id": 472,
+      "side_effect_name": "['hypoventilation']",
+      "prediction_score": 0.03581900894641876,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 630,
+      "side_effect_id": 222,
+      "side_effect_name": "['cystitis haemorrhagic']",
+      "prediction_score": 0.0358123779296875,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 631,
+      "side_effect_id": 716,
+      "side_effect_name": "['peritonitis']",
+      "prediction_score": 0.035809457302093506,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 632,
+      "side_effect_id": 585,
+      "side_effect_name": "['migraine']",
+      "prediction_score": 0.03578256070613861,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 633,
+      "side_effect_id": 544,
+      "side_effect_name": "['ligament sprain']",
+      "prediction_score": 0.03572463244199753,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 634,
+      "side_effect_id": 447,
+      "side_effect_name": "['hypertonia']",
+      "prediction_score": 0.03555825352668762,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 635,
+      "side_effect_id": 246,
+      "side_effect_name": "['discomfort']",
+      "prediction_score": 0.03555728495121002,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 636,
+      "side_effect_id": 234,
+      "side_effect_name": "['depression']",
+      "prediction_score": 0.03555622696876526,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 637,
+      "side_effect_id": 590,
+      "side_effect_name": "['mouth ulceration']",
+      "prediction_score": 0.03554415702819824,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 638,
+      "side_effect_id": 629,
+      "side_effect_name": "['nephrotic syndrome']",
+      "prediction_score": 0.035524167120456696,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 639,
+      "side_effect_id": 575,
+      "side_effect_name": "['menopause']",
+      "prediction_score": 0.03542685508728027,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 640,
+      "side_effect_id": 19,
+      "side_effect_name": "['ageusia']",
+      "prediction_score": 0.03538432717323303,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 641,
+      "side_effect_id": 775,
+      "side_effect_name": "['pyelonephritis']",
+      "prediction_score": 0.035334646701812744,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 642,
+      "side_effect_id": 929,
+      "side_effect_name": "['transient ischaemic attack']",
+      "prediction_score": 0.03532560169696808,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 643,
+      "side_effect_id": 698,
+      "side_effect_name": "['paralysis']",
+      "prediction_score": 0.03531459718942642,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 644,
+      "side_effect_id": 160,
+      "side_effect_name": "['cardiac murmur']",
+      "prediction_score": 0.03531061112880707,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 645,
+      "side_effect_id": 296,
+      "side_effect_name": "['endophthalmitis']",
+      "prediction_score": 0.03525017201900482,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 646,
+      "side_effect_id": 268,
+      "side_effect_name": "['dyspareunia']",
+      "prediction_score": 0.03516646474599838,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 647,
+      "side_effect_id": 251,
+      "side_effect_name": "['diverticulitis']",
+      "prediction_score": 0.03509116172790527,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 648,
+      "side_effect_id": 495,
+      "side_effect_name": "['injection site bruising']",
+      "prediction_score": 0.03499537706375122,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 649,
+      "side_effect_id": 477,
+      "side_effect_name": "['immune system disorder']",
+      "prediction_score": 0.03492853045463562,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 650,
+      "side_effect_id": 902,
+      "side_effect_name": "['throat irritation']",
+      "prediction_score": 0.0348963588476181,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 651,
+      "side_effect_id": 640,
+      "side_effect_name": "['neutrophil count decreased']",
+      "prediction_score": 0.0348418653011322,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 652,
+      "side_effect_id": 47,
+      "side_effect_name": "['anorectal discomfort']",
+      "prediction_score": 0.03482827544212341,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 653,
+      "side_effect_id": 340,
+      "side_effect_name": "['flank pain']",
+      "prediction_score": 0.03481759876012802,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 654,
+      "side_effect_id": 380,
+      "side_effect_name": "['gravitational oedema']",
+      "prediction_score": 0.034781962633132935,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 655,
+      "side_effect_id": 241,
+      "side_effect_name": "['dermatitis exfoliative']",
+      "prediction_score": 0.03478012979030609,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 656,
+      "side_effect_id": 130,
+      "side_effect_name": "['bone disorder']",
+      "prediction_score": 0.034778937697410583,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 657,
+      "side_effect_id": 894,
+      "side_effect_name": "['tenosynovitis']",
+      "prediction_score": 0.034778892993927,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 658,
+      "side_effect_id": 326,
+      "side_effect_name": "['eyelid oedema']",
+      "prediction_score": 0.03470221161842346,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 659,
+      "side_effect_id": 951,
+      "side_effect_name": "['uterine disorder']",
+      "prediction_score": 0.034586966037750244,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 660,
+      "side_effect_id": 330,
+      "side_effect_name": "['faeces discoloured']",
+      "prediction_score": 0.03455844521522522,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 661,
+      "side_effect_id": 803,
+      "side_effect_name": "['retinal disorder']",
+      "prediction_score": 0.034515008330345154,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 662,
+      "side_effect_id": 556,
+      "side_effect_name": "['lung infiltration']",
+      "prediction_score": 0.03450821340084076,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 663,
+      "side_effect_id": 363,
+      "side_effect_name": "['gastrointestinal infection']",
+      "prediction_score": 0.03446026146411896,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 664,
+      "side_effect_id": 371,
+      "side_effect_name": "['gingival pain']",
+      "prediction_score": 0.03442271053791046,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 665,
+      "side_effect_id": 105,
+      "side_effect_name": "['blepharospasm']",
+      "prediction_score": 0.03434571623802185,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 666,
+      "side_effect_id": 853,
+      "side_effect_name": "['skin striae']",
+      "prediction_score": 0.0342542827129364,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 667,
+      "side_effect_id": 963,
+      "side_effect_name": "['vasodilation procedure']",
+      "prediction_score": 0.03418736159801483,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 668,
+      "side_effect_id": 295,
+      "side_effect_name": "['endometrial disorder']",
+      "prediction_score": 0.0341278612613678,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 669,
+      "side_effect_id": 336,
+      "side_effect_name": "['feeling drunk']",
+      "prediction_score": 0.034055039286613464,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 670,
+      "side_effect_id": 780,
+      "side_effect_name": "['rash generalised']",
+      "prediction_score": 0.033797696232795715,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 671,
+      "side_effect_id": 586,
+      "side_effect_name": "['miosis']",
+      "prediction_score": 0.03378784656524658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 672,
+      "side_effect_id": 3,
+      "side_effect_name": "['abdominal pain lower']",
+      "prediction_score": 0.03367280960083008,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 673,
+      "side_effect_id": 529,
+      "side_effect_name": "['lacrimal structural disorder']",
+      "prediction_score": 0.03363078832626343,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 674,
+      "side_effect_id": 14,
+      "side_effect_name": "['acute myocardial infarction']",
+      "prediction_score": 0.03359192982316017,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 675,
+      "side_effect_id": 893,
+      "side_effect_name": "['tendonitis']",
+      "prediction_score": 0.03349222242832184,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 676,
+      "side_effect_id": 297,
+      "side_effect_name": "['enteritis']",
+      "prediction_score": 0.03345375508069992,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 677,
+      "side_effect_id": 923,
+      "side_effect_name": "['torticollis']",
+      "prediction_score": 0.0333435982465744,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 678,
+      "side_effect_id": 870,
+      "side_effect_name": "['strangury']",
+      "prediction_score": 0.033340197056531906,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 679,
+      "side_effect_id": 471,
+      "side_effect_name": "['hypotonia']",
+      "prediction_score": 0.033340051770210266,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 680,
+      "side_effect_id": 135,
+      "side_effect_name": "['breast cancer']",
+      "prediction_score": 0.03329119086265564,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 681,
+      "side_effect_id": 402,
+      "side_effect_name": "['hemiplegia']",
+      "prediction_score": 0.03309188783168793,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 682,
+      "side_effect_id": 926,
+      "side_effect_name": "['tracheitis']",
+      "prediction_score": 0.03299012780189514,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 683,
+      "side_effect_id": 315,
+      "side_effect_name": "['extrasystoles']",
+      "prediction_score": 0.03290463238954544,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 684,
+      "side_effect_id": 375,
+      "side_effect_name": "['glossodynia']",
+      "prediction_score": 0.0328945517539978,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 685,
+      "side_effect_id": 686,
+      "side_effect_name": "['pain of skin']",
+      "prediction_score": 0.03288186341524124,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 686,
+      "side_effect_id": 942,
+      "side_effect_name": "['urinary hesitation']",
+      "prediction_score": 0.03286343812942505,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 687,
+      "side_effect_id": 28,
+      "side_effect_name": "['alopecia']",
+      "prediction_score": 0.03283613920211792,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 688,
+      "side_effect_id": 900,
+      "side_effect_name": "['thinking abnormal']",
+      "prediction_score": 0.032810211181640625,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 689,
+      "side_effect_id": 648,
+      "side_effect_name": "[\"non-hodgkin's lymphoma\"]",
+      "prediction_score": 0.032805249094963074,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 690,
+      "side_effect_id": 54,
+      "side_effect_name": "['apathy']",
+      "prediction_score": 0.032732605934143066,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 691,
+      "side_effect_id": 382,
+      "side_effect_name": "['haematemesis']",
+      "prediction_score": 0.03265388309955597,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 692,
+      "side_effect_id": 422,
+      "side_effect_name": "['hostility']",
+      "prediction_score": 0.032632697373628616,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 693,
+      "side_effect_id": 746,
+      "side_effect_name": "['proctalgia']",
+      "prediction_score": 0.03261813521385193,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 694,
+      "side_effect_id": 149,
+      "side_effect_name": "['bruxism']",
+      "prediction_score": 0.032616931945085526,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 695,
+      "side_effect_id": 59,
+      "side_effect_name": "['appendicitis']",
+      "prediction_score": 0.03261090815067291,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 696,
+      "side_effect_id": 532,
+      "side_effect_name": "['laryngeal oedema']",
+      "prediction_score": 0.03259657323360443,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 697,
+      "side_effect_id": 176,
+      "side_effect_name": "['cervix disorder']",
+      "prediction_score": 0.0325620211660862,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 698,
+      "side_effect_id": 911,
+      "side_effect_name": "['thyroiditis']",
+      "prediction_score": 0.0325341522693634,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 699,
+      "side_effect_id": 694,
+      "side_effect_name": "['panophthalmitis']",
+      "prediction_score": 0.0324438214302063,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 700,
+      "side_effect_id": 568,
+      "side_effect_name": "['mastitis']",
+      "prediction_score": 0.03244340419769287,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 701,
+      "side_effect_id": 528,
+      "side_effect_name": "['lacrimal disorder']",
+      "prediction_score": 0.03232473134994507,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 702,
+      "side_effect_id": 794,
+      "side_effect_name": "['respiratory disorder']",
+      "prediction_score": 0.03225761651992798,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 703,
+      "side_effect_id": 857,
+      "side_effect_name": "['sluggishness']",
+      "prediction_score": 0.03223229944705963,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 704,
+      "side_effect_id": 567,
+      "side_effect_name": "['mania']",
+      "prediction_score": 0.032200440764427185,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 705,
+      "side_effect_id": 980,
+      "side_effect_name": "['vulvovaginal dryness']",
+      "prediction_score": 0.03217892721295357,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 706,
+      "side_effect_id": 956,
+      "side_effect_name": "['vaginal discharge']",
+      "prediction_score": 0.03215307742357254,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 707,
+      "side_effect_id": 64,
+      "side_effect_name": "['application site pain']",
+      "prediction_score": 0.0320887565612793,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 708,
+      "side_effect_id": 72,
+      "side_effect_name": "['arrhythmia supraventricular']",
+      "prediction_score": 0.03196580708026886,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 709,
+      "side_effect_id": 581,
+      "side_effect_name": "['metabolic acidosis']",
+      "prediction_score": 0.03193899989128113,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 710,
+      "side_effect_id": 133,
+      "side_effect_name": "['bradykinesia']",
+      "prediction_score": 0.03190502151846886,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 711,
+      "side_effect_id": 744,
+      "side_effect_name": "['priapism']",
+      "prediction_score": 0.03188958764076233,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 712,
+      "side_effect_id": 824,
+      "side_effect_name": "['sensation of foreign body']",
+      "prediction_score": 0.0318802148103714,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 713,
+      "side_effect_id": 960,
+      "side_effect_name": "['vascular headache']",
+      "prediction_score": 0.03186884522438049,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 714,
+      "side_effect_id": 765,
+      "side_effect_name": "['psychotic disorder']",
+      "prediction_score": 0.03184919059276581,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 715,
+      "side_effect_id": 442,
+      "side_effect_name": "['hyperreflexia']",
+      "prediction_score": 0.03182235732674599,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 716,
+      "side_effect_id": 558,
+      "side_effect_name": "['lymphocyte count decreased']",
+      "prediction_score": 0.03181898593902588,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 717,
+      "side_effect_id": 400,
+      "side_effect_name": "['hangover']",
+      "prediction_score": 0.031769536435604095,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 718,
+      "side_effect_id": 41,
+      "side_effect_name": "['aneurysm']",
+      "prediction_score": 0.03171989321708679,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 719,
+      "side_effect_id": 650,
+      "side_effect_name": "['nystagmus']",
+      "prediction_score": 0.03160722553730011,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 720,
+      "side_effect_id": 782,
+      "side_effect_name": "['rash maculo-papular']",
+      "prediction_score": 0.0314822643995285,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 721,
+      "side_effect_id": 305,
+      "side_effect_name": "['eructation']",
+      "prediction_score": 0.031456563621759415,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 722,
+      "side_effect_id": 140,
+      "side_effect_name": "['breast neoplasm']",
+      "prediction_score": 0.03145609050989151,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 723,
+      "side_effect_id": 352,
+      "side_effect_name": "['furuncle']",
+      "prediction_score": 0.03142394870519638,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 724,
+      "side_effect_id": 554,
+      "side_effect_name": "['lung disorder']",
+      "prediction_score": 0.0313429981470108,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 725,
+      "side_effect_id": 601,
+      "side_effect_name": "['muscle twitching']",
+      "prediction_score": 0.031168155372142792,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 726,
+      "side_effect_id": 779,
+      "side_effect_name": "['rash erythematous']",
+      "prediction_score": 0.031021833419799805,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 727,
+      "side_effect_id": 940,
+      "side_effect_name": "['urethritis']",
+      "prediction_score": 0.03099122643470764,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 728,
+      "side_effect_id": 196,
+      "side_effect_name": "['coma']",
+      "prediction_score": 0.030957773327827454,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 729,
+      "side_effect_id": 48,
+      "side_effect_name": "['anorectal disorder']",
+      "prediction_score": 0.030916959047317505,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 730,
+      "side_effect_id": 847,
+      "side_effect_name": "['skin infection']",
+      "prediction_score": 0.03083735704421997,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 731,
+      "side_effect_id": 66,
+      "side_effect_name": "['application site pruritus']",
+      "prediction_score": 0.03074049949645996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 732,
+      "side_effect_id": 573,
+      "side_effect_name": "['meningitis']",
+      "prediction_score": 0.030661821365356445,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 733,
+      "side_effect_id": 486,
+      "side_effect_name": "['induration']",
+      "prediction_score": 0.030644863843917847,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 734,
+      "side_effect_id": 524,
+      "side_effect_name": "['ketosis']",
+      "prediction_score": 0.030632726848125458,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 735,
+      "side_effect_id": 759,
+      "side_effect_name": "['pruritus generalised']",
+      "prediction_score": 0.030429795384407043,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 736,
+      "side_effect_id": 896,
+      "side_effect_name": "['tension headache']",
+      "prediction_score": 0.030414920300245285,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 737,
+      "side_effect_id": 553,
+      "side_effect_name": "['lower respiratory tract infection']",
+      "prediction_score": 0.030241720378398895,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 738,
+      "side_effect_id": 368,
+      "side_effect_name": "['generalised oedema']",
+      "prediction_score": 0.03021743893623352,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 739,
+      "side_effect_id": 100,
+      "side_effect_name": "['bipolar i disorder']",
+      "prediction_score": 0.029957614839076996,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 740,
+      "side_effect_id": 736,
+      "side_effect_name": "['pollakiuria']",
+      "prediction_score": 0.02994019165635109,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 741,
+      "side_effect_id": 142,
+      "side_effect_name": "['breast tenderness']",
+      "prediction_score": 0.02993585169315338,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 742,
+      "side_effect_id": 749,
+      "side_effect_name": "['prostate cancer']",
+      "prediction_score": 0.02991168200969696,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 743,
+      "side_effect_id": 858,
+      "side_effect_name": "['sneezing']",
+      "prediction_score": 0.02989879623055458,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 744,
+      "side_effect_id": 555,
+      "side_effect_name": "['lung infection']",
+      "prediction_score": 0.029739856719970703,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 745,
+      "side_effect_id": 931,
+      "side_effect_name": "['trismus']",
+      "prediction_score": 0.029736429452896118,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 746,
+      "side_effect_id": 200,
+      "side_effect_name": "['congenital eye disorder']",
+      "prediction_score": 0.029724664986133575,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 747,
+      "side_effect_id": 515,
+      "side_effect_name": "['iron deficiency anaemia']",
+      "prediction_score": 0.02969244122505188,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 748,
+      "side_effect_id": 106,
+      "side_effect_name": "['blindness']",
+      "prediction_score": 0.029678910970687866,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 749,
+      "side_effect_id": 195,
+      "side_effect_name": "['colitis ulcerative']",
+      "prediction_score": 0.029553882777690887,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 750,
+      "side_effect_id": 871,
+      "side_effect_name": "['stridor']",
+      "prediction_score": 0.02946425974369049,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 751,
+      "side_effect_id": 240,
+      "side_effect_name": "['dermatitis contact']",
+      "prediction_score": 0.02936406433582306,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 752,
+      "side_effect_id": 777,
+      "side_effect_name": "['rales']",
+      "prediction_score": 0.029356971383094788,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 753,
+      "side_effect_id": 673,
+      "side_effect_name": "['orthostatic hypotension']",
+      "prediction_score": 0.029343202710151672,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 754,
+      "side_effect_id": 309,
+      "side_effect_name": "['erythema of eyelid']",
+      "prediction_score": 0.029132258147001266,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 755,
+      "side_effect_id": 563,
+      "side_effect_name": "['major depression']",
+      "prediction_score": 0.028928369283676147,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 756,
+      "side_effect_id": 750,
+      "side_effect_name": "['prostatic disorder']",
+      "prediction_score": 0.028873220086097717,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 757,
+      "side_effect_id": 153,
+      "side_effect_name": "['cachexia']",
+      "prediction_score": 0.02882838249206543,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 758,
+      "side_effect_id": 232,
+      "side_effect_name": "['depressed level of consciousness']",
+      "prediction_score": 0.02879910171031952,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 759,
+      "side_effect_id": 851,
+      "side_effect_name": "['skin odour abnormal']",
+      "prediction_score": 0.028710924088954926,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 760,
+      "side_effect_id": 869,
+      "side_effect_name": "['stomatitis']",
+      "prediction_score": 0.02869190275669098,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 761,
+      "side_effect_id": 202,
+      "side_effect_name": "['conjunctival hyperaemia']",
+      "prediction_score": 0.02863772213459015,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 762,
+      "side_effect_id": 73,
+      "side_effect_name": "['arteriosclerosis']",
+      "prediction_score": 0.028500676155090332,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 763,
+      "side_effect_id": 27,
+      "side_effect_name": "['alcohol intolerance']",
+      "prediction_score": 0.028426997363567352,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 764,
+      "side_effect_id": 426,
+      "side_effect_name": "['hyperaesthesia']",
+      "prediction_score": 0.02841491997241974,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 765,
+      "side_effect_id": 763,
+      "side_effect_name": "['psoriasis']",
+      "prediction_score": 0.02828320860862732,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 766,
+      "side_effect_id": 738,
+      "side_effect_name": "['polydipsia']",
+      "prediction_score": 0.02817678079009056,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 767,
+      "side_effect_id": 768,
+      "side_effect_name": "['pulmonary fibrosis']",
+      "prediction_score": 0.028152257204055786,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 768,
+      "side_effect_id": 670,
+      "side_effect_name": "['orgasm abnormal']",
+      "prediction_score": 0.028009887784719467,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 769,
+      "side_effect_id": 664,
+      "side_effect_name": "['optic atrophy']",
+      "prediction_score": 0.027892783284187317,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 770,
+      "side_effect_id": 65,
+      "side_effect_name": "['application site paraesthesia']",
+      "prediction_score": 0.0277891606092453,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 771,
+      "side_effect_id": 198,
+      "side_effect_name": "['conduction disorder']",
+      "prediction_score": 0.027756936848163605,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 772,
+      "side_effect_id": 702,
+      "side_effect_name": "['parosmia']",
+      "prediction_score": 0.027756433933973312,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 773,
+      "side_effect_id": 559,
+      "side_effect_name": "['lymphocytosis']",
+      "prediction_score": 0.02770647406578064,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 774,
+      "side_effect_id": 351,
+      "side_effect_name": "['fungal skin infection']",
+      "prediction_score": 0.027652114629745483,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 775,
+      "side_effect_id": 715,
+      "side_effect_name": "['peripheral vascular disorder']",
+      "prediction_score": 0.027480915188789368,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 776,
+      "side_effect_id": 954,
+      "side_effect_name": "['uterine spasm']",
+      "prediction_score": 0.027462147176265717,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 777,
+      "side_effect_id": 255,
+      "side_effect_name": "['drug hypersensitivity']",
+      "prediction_score": 0.02742035686969757,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 778,
+      "side_effect_id": 138,
+      "side_effect_name": "['breast engorgement']",
+      "prediction_score": 0.027408286929130554,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 779,
+      "side_effect_id": 557,
+      "side_effect_name": "['lymphadenopathy']",
+      "prediction_score": 0.027325589209794998,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 780,
+      "side_effect_id": 917,
+      "side_effect_name": "['tonsillitis']",
+      "prediction_score": 0.02726447582244873,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 781,
+      "side_effect_id": 705,
+      "side_effect_name": "['peptic ulcer']",
+      "prediction_score": 0.027237549424171448,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 782,
+      "side_effect_id": 407,
+      "side_effect_name": "['hepatic necrosis']",
+      "prediction_score": 0.02716130018234253,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 783,
+      "side_effect_id": 320,
+      "side_effect_name": "['eye infection']",
+      "prediction_score": 0.027061346918344498,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 784,
+      "side_effect_id": 238,
+      "side_effect_name": "['dermatitis atopic']",
+      "prediction_score": 0.026965349912643433,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 785,
+      "side_effect_id": 892,
+      "side_effect_name": "['tendon disorder']",
+      "prediction_score": 0.026926271617412567,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 786,
+      "side_effect_id": 792,
+      "side_effect_name": "['respiration abnormal']",
+      "prediction_score": 0.02677518129348755,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 787,
+      "side_effect_id": 941,
+      "side_effect_name": "['urethritis noninfective']",
+      "prediction_score": 0.02672329545021057,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 788,
+      "side_effect_id": 24,
+      "side_effect_name": "['akinesia']",
+      "prediction_score": 0.02662009745836258,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 789,
+      "side_effect_id": 891,
+      "side_effect_name": "['tendinous contracture']",
+      "prediction_score": 0.026610583066940308,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 790,
+      "side_effect_id": 55,
+      "side_effect_name": "['aphasia']",
+      "prediction_score": 0.02660825103521347,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 791,
+      "side_effect_id": 914,
+      "side_effect_name": "['tongue disorder']",
+      "prediction_score": 0.026533760130405426,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 792,
+      "side_effect_id": 612,
+      "side_effect_name": "['myocarditis']",
+      "prediction_score": 0.026510797441005707,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 793,
+      "side_effect_id": 624,
+      "side_effect_name": "['neoplasm malignant']",
+      "prediction_score": 0.026439756155014038,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 794,
+      "side_effect_id": 813,
+      "side_effect_name": "['rosacea']",
+      "prediction_score": 0.02634010836482048,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 795,
+      "side_effect_id": 322,
+      "side_effect_name": "['eye oedema']",
+      "prediction_score": 0.026291683316230774,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 796,
+      "side_effect_id": 291,
+      "side_effect_name": "['emotional disorder']",
+      "prediction_score": 0.026108425110578537,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 797,
+      "side_effect_id": 727,
+      "side_effect_name": "['plasma cell myeloma']",
+      "prediction_score": 0.026051640510559082,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 798,
+      "side_effect_id": 33,
+      "side_effect_name": "['amnesia']",
+      "prediction_score": 0.026046980172395706,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 799,
+      "side_effect_id": 675,
+      "side_effect_name": "['osteomyelitis']",
+      "prediction_score": 0.026007071137428284,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 800,
+      "side_effect_id": 639,
+      "side_effect_name": "['neutropenic sepsis']",
+      "prediction_score": 0.025998741388320923,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 801,
+      "side_effect_id": 163,
+      "side_effect_name": "['cardiomegaly']",
+      "prediction_score": 0.02593255043029785,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 802,
+      "side_effect_id": 77,
+      "side_effect_name": "['ascites']",
+      "prediction_score": 0.025885239243507385,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 803,
+      "side_effect_id": 403,
+      "side_effect_name": "['hepatic cancer']",
+      "prediction_score": 0.02571781724691391,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 804,
+      "side_effect_id": 855,
+      "side_effect_name": "['sleep apnoea syndrome']",
+      "prediction_score": 0.025684982538223267,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 805,
+      "side_effect_id": 82,
+      "side_effect_name": "['asthma']",
+      "prediction_score": 0.025611072778701782,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 806,
+      "side_effect_id": 424,
+      "side_effect_name": "['hyperacusis']",
+      "prediction_score": 0.025557376444339752,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 807,
+      "side_effect_id": 809,
+      "side_effect_name": "['rhinitis allergic']",
+      "prediction_score": 0.025515839457511902,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 808,
+      "side_effect_id": 101,
+      "side_effect_name": "['bladder cancer']",
+      "prediction_score": 0.02548055350780487,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 809,
+      "side_effect_id": 972,
+      "side_effect_name": "['viral diarrhoea']",
+      "prediction_score": 0.02544504404067993,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 810,
+      "side_effect_id": 143,
+      "side_effect_name": "['breath odour']",
+      "prediction_score": 0.025435730814933777,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 811,
+      "side_effect_id": 480,
+      "side_effect_name": "['impetigo']",
+      "prediction_score": 0.025271635502576828,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 812,
+      "side_effect_id": 916,
+      "side_effect_name": "['tongue ulceration']",
+      "prediction_score": 0.025212034583091736,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 813,
+      "side_effect_id": 652,
+      "side_effect_name": "['ocular hyperaemia']",
+      "prediction_score": 0.02492159605026245,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 814,
+      "side_effect_id": 500,
+      "side_effect_name": "['injection site pain']",
+      "prediction_score": 0.024918869137763977,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 815,
+      "side_effect_id": 177,
+      "side_effect_name": "['change of bowel habit']",
+      "prediction_score": 0.02491731196641922,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 816,
+      "side_effect_id": 835,
+      "side_effect_name": "['sinus congestion']",
+      "prediction_score": 0.024835899472236633,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 817,
+      "side_effect_id": 613,
+      "side_effect_name": "['myoclonus']",
+      "prediction_score": 0.024693109095096588,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 818,
+      "side_effect_id": 225,
+      "side_effect_name": "['decreased appetite']",
+      "prediction_score": 0.024676144123077393,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 819,
+      "side_effect_id": 938,
+      "side_effect_name": "['upper-airway cough syndrome']",
+      "prediction_score": 0.024674654006958008,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 820,
+      "side_effect_id": 805,
+      "side_effect_name": "['retroperitoneal haemorrhage']",
+      "prediction_score": 0.024533525109291077,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 821,
+      "side_effect_id": 205,
+      "side_effect_name": "['conjunctivitis allergic']",
+      "prediction_score": 0.02450588345527649,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 822,
+      "side_effect_id": 112,
+      "side_effect_name": "['blood cholesterol increased']",
+      "prediction_score": 0.02448895573616028,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 823,
+      "side_effect_id": 95,
+      "side_effect_name": "['balance disorder']",
+      "prediction_score": 0.024429596960544586,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 824,
+      "side_effect_id": 825,
+      "side_effect_name": "['sensory disturbance']",
+      "prediction_score": 0.0243825763463974,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 825,
+      "side_effect_id": 726,
+      "side_effect_name": "['pigmentation disorder']",
+      "prediction_score": 0.02425682544708252,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 826,
+      "side_effect_id": 145,
+      "side_effect_name": "['bronchial hyperreactivity']",
+      "prediction_score": 0.02425355464220047,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 827,
+      "side_effect_id": 230,
+      "side_effect_name": "['dementia']",
+      "prediction_score": 0.024250946938991547,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 828,
+      "side_effect_id": 712,
+      "side_effect_name": "['peripheral ischaemia']",
+      "prediction_score": 0.024111125618219376,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 829,
+      "side_effect_id": 579,
+      "side_effect_name": "['mental disability']",
+      "prediction_score": 0.02405904233455658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 830,
+      "side_effect_id": 446,
+      "side_effect_name": "['hyperthyroidism']",
+      "prediction_score": 0.024043455719947815,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 831,
+      "side_effect_id": 616,
+      "side_effect_name": "['nail disorder']",
+      "prediction_score": 0.02402292937040329,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 832,
+      "side_effect_id": 665,
+      "side_effect_name": "['optic neuritis']",
+      "prediction_score": 0.023999106138944626,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 833,
+      "side_effect_id": 877,
+      "side_effect_name": "['suicide attempt']",
+      "prediction_score": 0.02373461052775383,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 834,
+      "side_effect_id": 687,
+      "side_effect_name": "['pallor']",
+      "prediction_score": 0.023704752326011658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 835,
+      "side_effect_id": 671,
+      "side_effect_name": "['oropharyngeal discomfort']",
+      "prediction_score": 0.02368422970175743,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 836,
+      "side_effect_id": 124,
+      "side_effect_name": "['blood triglycerides increased']",
+      "prediction_score": 0.02362304925918579,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 837,
+      "side_effect_id": 20,
+      "side_effect_name": "['aggression']",
+      "prediction_score": 0.023579340428113937,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 838,
+      "side_effect_id": 310,
+      "side_effect_name": "['euphoric mood']",
+      "prediction_score": 0.02345181256532669,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 839,
+      "side_effect_id": 901,
+      "side_effect_name": "['thirst']",
+      "prediction_score": 0.023416534066200256,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 840,
+      "side_effect_id": 967,
+      "side_effect_name": "['ventricular extrasystoles']",
+      "prediction_score": 0.023334413766860962,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 841,
+      "side_effect_id": 353,
+      "side_effect_name": "['gait disturbance']",
+      "prediction_score": 0.023129954934120178,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 842,
+      "side_effect_id": 597,
+      "side_effect_name": "['muscle relaxant therapy']",
+      "prediction_score": 0.02295096218585968,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 843,
+      "side_effect_id": 367,
+      "side_effect_name": "['gastrooesophageal reflux disease']",
+      "prediction_score": 0.022940605878829956,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 844,
+      "side_effect_id": 201,
+      "side_effect_name": "['conjunctival haemorrhage']",
+      "prediction_score": 0.02291092276573181,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 845,
+      "side_effect_id": 60,
+      "side_effect_name": "['application site burn']",
+      "prediction_score": 0.02288888394832611,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 846,
+      "side_effect_id": 992,
+      "side_effect_name": "['xerophthalmia']",
+      "prediction_score": 0.022819887846708298,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 847,
+      "side_effect_id": 414,
+      "side_effect_name": "['hepatotoxicity']",
+      "prediction_score": 0.022718235850334167,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 848,
+      "side_effect_id": 56,
+      "side_effect_name": "['aplasia pure red cell']",
+      "prediction_score": 0.022680997848510742,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 849,
+      "side_effect_id": 193,
+      "side_effect_name": "['colitis']",
+      "prediction_score": 0.022561103105545044,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 850,
+      "side_effect_id": 767,
+      "side_effect_name": "['pulmonary embolism']",
+      "prediction_score": 0.022435680031776428,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 851,
+      "side_effect_id": 214,
+      "side_effect_name": "['coronary artery disease']",
+      "prediction_score": 0.022328920662403107,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 852,
+      "side_effect_id": 983,
+      "side_effect_name": "['vulvovaginitis']",
+      "prediction_score": 0.022323966026306152,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 853,
+      "side_effect_id": 719,
+      "side_effect_name": "['pharyngeal oedema']",
+      "prediction_score": 0.02223815768957138,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 854,
+      "side_effect_id": 46,
+      "side_effect_name": "['angle closure glaucoma']",
+      "prediction_score": 0.022225748747587204,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 855,
+      "side_effect_id": 668,
+      "side_effect_name": "['oral pain']",
+      "prediction_score": 0.02214759588241577,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 856,
+      "side_effect_id": 298,
+      "side_effect_name": "['enterocolitis']",
+      "prediction_score": 0.022107746452093124,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 857,
+      "side_effect_id": 841,
+      "side_effect_name": "['skin cancer']",
+      "prediction_score": 0.021928906440734863,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 858,
+      "side_effect_id": 257,
+      "side_effect_name": "['dry eye']",
+      "prediction_score": 0.021786987781524658,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 859,
+      "side_effect_id": 68,
+      "side_effect_name": "['application site reaction']",
+      "prediction_score": 0.02176821231842041,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 860,
+      "side_effect_id": 208,
+      "side_effect_name": "['contusion']",
+      "prediction_score": 0.0217457115650177,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 861,
+      "side_effect_id": 982,
+      "side_effect_name": "['vulvovaginal pruritus']",
+      "prediction_score": 0.021531138569116592,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 862,
+      "side_effect_id": 685,
+      "side_effect_name": "['pain in jaw']",
+      "prediction_score": 0.021492600440979004,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 863,
+      "side_effect_id": 913,
+      "side_effect_name": "['tongue discolouration']",
+      "prediction_score": 0.021474674344062805,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 864,
+      "side_effect_id": 717,
+      "side_effect_name": "['personality disorder']",
+      "prediction_score": 0.021416157484054565,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 865,
+      "side_effect_id": 596,
+      "side_effect_name": "['muscle contractions involuntary']",
+      "prediction_score": 0.021408934146165848,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 866,
+      "side_effect_id": 816,
+      "side_effect_name": "['salpingitis']",
+      "prediction_score": 0.021378986537456512,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 867,
+      "side_effect_id": 482,
+      "side_effect_name": "['incontinence']",
+      "prediction_score": 0.02112044021487236,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 868,
+      "side_effect_id": 173,
+      "side_effect_name": "['cerebral ischaemia']",
+      "prediction_score": 0.021104097366333008,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 869,
+      "side_effect_id": 927,
+      "side_effect_name": "['tracheobronchitis']",
+      "prediction_score": 0.021013781428337097,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 870,
+      "side_effect_id": 235,
+      "side_effect_name": "['derealisation']",
+      "prediction_score": 0.020968809723854065,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 871,
+      "side_effect_id": 663,
+      "side_effect_name": "['opportunistic infection']",
+      "prediction_score": 0.020868226885795593,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 872,
+      "side_effect_id": 390,
+      "side_effect_name": "['haemolytic uraemic syndrome']",
+      "prediction_score": 0.020835530012845993,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 873,
+      "side_effect_id": 695,
+      "side_effect_name": "['papilloedema']",
+      "prediction_score": 0.02080434560775757,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 874,
+      "side_effect_id": 609,
+      "side_effect_name": "['myelitis']",
+      "prediction_score": 0.0207168310880661,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 875,
+      "side_effect_id": 301,
+      "side_effect_name": "['epididymitis']",
+      "prediction_score": 0.020655576139688492,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 876,
+      "side_effect_id": 459,
+      "side_effect_name": "['hypohidrosis']",
+      "prediction_score": 0.020605843514204025,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 877,
+      "side_effect_id": 270,
+      "side_effect_name": "['dysphagia']",
+      "prediction_score": 0.020558655261993408,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 878,
+      "side_effect_id": 289,
+      "side_effect_name": "['embolism']",
+      "prediction_score": 0.02045843005180359,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 879,
+      "side_effect_id": 742,
+      "side_effect_name": "['premenstrual syndrome']",
+      "prediction_score": 0.020455293357372284,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 880,
+      "side_effect_id": 846,
+      "side_effect_name": "['skin hypertrophy']",
+      "prediction_score": 0.02014213800430298,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 881,
+      "side_effect_id": 463,
+      "side_effect_name": "['hypomania']",
+      "prediction_score": 0.019973374903202057,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 882,
+      "side_effect_id": 185,
+      "side_effect_name": "['choreoathetosis']",
+      "prediction_score": 0.019831690937280655,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 883,
+      "side_effect_id": 525,
+      "side_effect_name": "['laboratory test abnormal']",
+      "prediction_score": 0.0198090597987175,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 884,
+      "side_effect_id": 634,
+      "side_effect_name": "['neuroleptic malignant syndrome']",
+      "prediction_score": 0.01976925879716873,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 885,
+      "side_effect_id": 801,
+      "side_effect_name": "['retinal degeneration']",
+      "prediction_score": 0.019683465361595154,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 886,
+      "side_effect_id": 837,
+      "side_effect_name": "['sinus tachycardia']",
+      "prediction_score": 0.019673634320497513,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 887,
+      "side_effect_id": 819,
+      "side_effect_name": "['sciatica']",
+      "prediction_score": 0.01962500810623169,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 888,
+      "side_effect_id": 922,
+      "side_effect_name": "['torsade de pointes']",
+      "prediction_score": 0.019550122320652008,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 889,
+      "side_effect_id": 576,
+      "side_effect_name": "['menorrhagia']",
+      "prediction_score": 0.01941622793674469,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 890,
+      "side_effect_id": 862,
+      "side_effect_name": "['speech disorder']",
+      "prediction_score": 0.01928216964006424,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 891,
+      "side_effect_id": 217,
+      "side_effect_name": "['crying']",
+      "prediction_score": 0.019228119403123856,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 892,
+      "side_effect_id": 197,
+      "side_effect_name": "['completed suicide']",
+      "prediction_score": 0.019198428839445114,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 893,
+      "side_effect_id": 800,
+      "side_effect_name": "['retching']",
+      "prediction_score": 0.019187137484550476,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 894,
+      "side_effect_id": 483,
+      "side_effect_name": "['increased appetite']",
+      "prediction_score": 0.018876656889915466,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 895,
+      "side_effect_id": 747,
+      "side_effect_name": "['proctitis']",
+      "prediction_score": 0.018850043416023254,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 896,
+      "side_effect_id": 732,
+      "side_effect_name": "['pleuritic pain']",
+      "prediction_score": 0.018726930022239685,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 897,
+      "side_effect_id": 194,
+      "side_effect_name": "['colitis ischaemic']",
+      "prediction_score": 0.01871161162853241,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 898,
+      "side_effect_id": 87,
+      "side_effect_name": "['atrioventricular block']",
+      "prediction_score": 0.01861630380153656,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 899,
+      "side_effect_id": 42,
+      "side_effect_name": "['anger']",
+      "prediction_score": 0.018505901098251343,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 900,
+      "side_effect_id": 277,
+      "side_effect_name": "['ear infection']",
+      "prediction_score": 0.018436752259731293,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 901,
+      "side_effect_id": 882,
+      "side_effect_name": "['swelling face']",
+      "prediction_score": 0.018412083387374878,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 902,
+      "side_effect_id": 97,
+      "side_effect_name": "['benign neoplasm of skin']",
+      "prediction_score": 0.01830969750881195,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 903,
+      "side_effect_id": 425,
+      "side_effect_name": "['hyperaemia']",
+      "prediction_score": 0.017868567258119583,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 904,
+      "side_effect_id": 764,
+      "side_effect_name": "['psychomotor retardation']",
+      "prediction_score": 0.017778947949409485,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 905,
+      "side_effect_id": 608,
+      "side_effect_name": "['mydriasis']",
+      "prediction_score": 0.017761237919330597,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 906,
+      "side_effect_id": 651,
+      "side_effect_name": "['ocular discomfort']",
+      "prediction_score": 0.01769944652915001,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 907,
+      "side_effect_id": 790,
+      "side_effect_name": "['renal pain']",
+      "prediction_score": 0.01721421256661415,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 908,
+      "side_effect_id": 728,
+      "side_effect_name": "['plasmacytoma']",
+      "prediction_score": 0.0171012282371521,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 909,
+      "side_effect_id": 646,
+      "side_effect_name": "['nodule']",
+      "prediction_score": 0.016970239579677582,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 910,
+      "side_effect_id": 313,
+      "side_effect_name": "['exostosis']",
+      "prediction_score": 0.016965128481388092,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 911,
+      "side_effect_id": 812,
+      "side_effect_name": "['road traffic accident']",
+      "prediction_score": 0.016855131834745407,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 912,
+      "side_effect_id": 740,
+      "side_effect_name": "['polyuria']",
+      "prediction_score": 0.016399919986724854,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 913,
+      "side_effect_id": 398,
+      "side_effect_name": "['hair texture abnormal']",
+      "prediction_score": 0.016336478292942047,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 914,
+      "side_effect_id": 123,
+      "side_effect_name": "['blood prolactin increased']",
+      "prediction_score": 0.01633545011281967,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 915,
+      "side_effect_id": 807,
+      "side_effect_name": "['rheumatoid arthritis']",
+      "prediction_score": 0.016074050217866898,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 916,
+      "side_effect_id": 75,
+      "side_effect_name": "['arthritis']",
+      "prediction_score": 0.016042932868003845,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 917,
+      "side_effect_id": 76,
+      "side_effect_name": "['arthropathy']",
+      "prediction_score": 0.015944987535476685,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 918,
+      "side_effect_id": 918,
+      "side_effect_name": "['tooth abscess']",
+      "prediction_score": 0.015796273946762085,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 919,
+      "side_effect_id": 188,
+      "side_effect_name": "['chronic obstructive pulmonary disease']",
+      "prediction_score": 0.015707310289144516,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 920,
+      "side_effect_id": 81,
+      "side_effect_name": "['asthenopia']",
+      "prediction_score": 0.015623081475496292,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 921,
+      "side_effect_id": 600,
+      "side_effect_name": "['muscle tightness']",
+      "prediction_score": 0.015604574233293533,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 922,
+      "side_effect_id": 344,
+      "side_effect_name": "['fluid retention']",
+      "prediction_score": 0.015405207872390747,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 923,
+      "side_effect_id": 595,
+      "side_effect_name": "['muscle atrophy']",
+      "prediction_score": 0.01529480516910553,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 924,
+      "side_effect_id": 244,
+      "side_effect_name": "['diarrhoea haemorrhagic']",
+      "prediction_score": 0.015223391354084015,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 925,
+      "side_effect_id": 278,
+      "side_effect_name": "['ear pain']",
+      "prediction_score": 0.015180680900812149,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 926,
+      "side_effect_id": 372,
+      "side_effect_name": "['gingivitis']",
+      "prediction_score": 0.015077322721481323,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 927,
+      "side_effect_id": 534,
+      "side_effect_name": "['laryngitis']",
+      "prediction_score": 0.014889121055603027,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 928,
+      "side_effect_id": 498,
+      "side_effect_name": "['injection site induration']",
+      "prediction_score": 0.014475952833890915,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 929,
+      "side_effect_id": 136,
+      "side_effect_name": "['breast discharge']",
+      "prediction_score": 0.014278136193752289,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 930,
+      "side_effect_id": 876,
+      "side_effect_name": "['suicidal ideation']",
+      "prediction_score": 0.013773415237665176,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 931,
+      "side_effect_id": 632,
+      "side_effect_name": "['neuralgia']",
+      "prediction_score": 0.013304919004440308,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 932,
+      "side_effect_id": 676,
+      "side_effect_name": "['osteonecrosis']",
+      "prediction_score": 0.013187617063522339,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 933,
+      "side_effect_id": 636,
+      "side_effect_name": "['neurosis']",
+      "prediction_score": 0.012784775346517563,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 934,
+      "side_effect_id": 875,
+      "side_effect_name": "['sudden death']",
+      "prediction_score": 0.012737151235342026,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 935,
+      "side_effect_id": 543,
+      "side_effect_name": "['lichenoid keratosis']",
+      "prediction_score": 0.012691732496023178,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 936,
+      "side_effect_id": 700,
+      "side_effect_name": "['paresis']",
+      "prediction_score": 0.012525051832199097,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 937,
+      "side_effect_id": 213,
+      "side_effect_name": "['corneal opacity']",
+      "prediction_score": 0.012425769120454788,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 938,
+      "side_effect_id": 743,
+      "side_effect_name": "['presyncope']",
+      "prediction_score": 0.012414272874593735,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 939,
+      "side_effect_id": 191,
+      "side_effect_name": "['cognitive disorder']",
+      "prediction_score": 0.012323107570409775,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 940,
+      "side_effect_id": 692,
+      "side_effect_name": "['panic attack']",
+      "prediction_score": 0.012170102447271347,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 941,
+      "side_effect_id": 211,
+      "side_effect_name": "['corneal erosion']",
+      "prediction_score": 0.012103646993637085,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 942,
+      "side_effect_id": 299,
+      "side_effect_name": "['enuresis']",
+      "prediction_score": 0.011874593794345856,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 943,
+      "side_effect_id": 785,
+      "side_effect_name": "['rectal haemorrhage']",
+      "prediction_score": 0.011866241693496704,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 944,
+      "side_effect_id": 988,
+      "side_effect_name": "['white blood cell count increased']",
+      "prediction_score": 0.011820361018180847,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 945,
+      "side_effect_id": 799,
+      "side_effect_name": "['restless legs syndrome']",
+      "prediction_score": 0.01181403174996376,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 946,
+      "side_effect_id": 821,
+      "side_effect_name": "['seasonal allergy']",
+      "prediction_score": 0.011758387088775635,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 947,
+      "side_effect_id": 282,
+      "side_effect_name": "['ejaculation disorder']",
+      "prediction_score": 0.011415388435125351,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 948,
+      "side_effect_id": 36,
+      "side_effect_name": "['anaemia macrocytic']",
+      "prediction_score": 0.011346764862537384,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 949,
+      "side_effect_id": 335,
+      "side_effect_name": "['feeling cold']",
+      "prediction_score": 0.011245794594287872,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 950,
+      "side_effect_id": 833,
+      "side_effect_name": "['sialoadenitis']",
+      "prediction_score": 0.011156372725963593,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 951,
+      "side_effect_id": 349,
+      "side_effect_name": "['functional gastrointestinal disorder']",
+      "prediction_score": 0.011149764060974121,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 952,
+      "side_effect_id": 510,
+      "side_effect_name": "['intestinal obstruction']",
+      "prediction_score": 0.010886147618293762,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 953,
+      "side_effect_id": 868,
+      "side_effect_name": "['sticky skin']",
+      "prediction_score": 0.01082511618733406,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 954,
+      "side_effect_id": 842,
+      "side_effect_name": "['skin discolouration']",
+      "prediction_score": 0.01057499647140503,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 955,
+      "side_effect_id": 259,
+      "side_effect_name": "['dry skin']",
+      "prediction_score": 0.010213226079940796,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 956,
+      "side_effect_id": 606,
+      "side_effect_name": "['musculoskeletal stiffness']",
+      "prediction_score": 0.010186254978179932,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 957,
+      "side_effect_id": 583,
+      "side_effect_name": "['micturition disorder']",
+      "prediction_score": 0.009875454008579254,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 958,
+      "side_effect_id": 709,
+      "side_effect_name": "['periodontitis']",
+      "prediction_score": 0.009444445371627808,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 959,
+      "side_effect_id": 517,
+      "side_effect_name": "['irritable bowel syndrome']",
+      "prediction_score": 0.009100135415792465,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 960,
+      "side_effect_id": 572,
+      "side_effect_name": "['memory impairment']",
+      "prediction_score": 0.008831590414047241,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 961,
+      "side_effect_id": 253,
+      "side_effect_name": "['dizziness postural']",
+      "prediction_score": 0.008692450821399689,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 962,
+      "side_effect_id": 430,
+      "side_effect_name": "['hypercholesterolaemia']",
+      "prediction_score": 0.008623242378234863,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 963,
+      "side_effect_id": 957,
+      "side_effect_name": "['vaginal haemorrhage']",
+      "prediction_score": 0.008572854101657867,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 964,
+      "side_effect_id": 703,
+      "side_effect_name": "['pelvic pain']",
+      "prediction_score": 0.00852319598197937,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 965,
+      "side_effect_id": 287,
+      "side_effect_name": "['electroencephalogram abnormal']",
+      "prediction_score": 0.007605113089084625,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 966,
+      "side_effect_id": 949,
+      "side_effect_name": "['urine output increased']",
+      "prediction_score": 0.007253512740135193,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 967,
+      "side_effect_id": 936,
+      "side_effect_name": "['unintended pregnancy']",
+      "prediction_score": 0.007191285490989685,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 968,
+      "side_effect_id": 897,
+      "side_effect_name": "['testicular pain']",
+      "prediction_score": 0.007175173610448837,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 969,
+      "side_effect_id": 641,
+      "side_effect_name": "['night blindness']",
+      "prediction_score": 0.00570296123623848,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 970,
+      "side_effect_id": 643,
+      "side_effect_name": "['nightmare']",
+      "prediction_score": 0.005260206758975983,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 971,
+      "side_effect_id": 571,
+      "side_effect_name": "['melanosis']",
+      "prediction_score": 0.004968654364347458,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 972,
+      "side_effect_id": 32,
+      "side_effect_name": "['amenorrhoea']",
+      "prediction_score": 0.004718713462352753,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 973,
+      "side_effect_id": 704,
+      "side_effect_name": "['penis disorder']",
+      "prediction_score": 0.004613567143678665,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 974,
+      "side_effect_id": 9,
+      "side_effect_name": "['accommodation disorder']",
+      "prediction_score": 0.0040047019720077515,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 975,
+      "side_effect_id": 859,
+      "side_effect_name": "['snoring']",
+      "prediction_score": 0.0033393092453479767,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 976,
+      "side_effect_id": 419,
+      "side_effect_name": "['hiatus hernia']",
+      "prediction_score": 0.0033366233110427856,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 977,
+      "side_effect_id": 260,
+      "side_effect_name": "['dry throat']",
+      "prediction_score": 0.002651989459991455,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 978,
+      "side_effect_id": 354,
+      "side_effect_name": "['galactorrhoea']",
+      "prediction_score": 0.0018881205469369888,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 979,
+      "side_effect_id": 62,
+      "side_effect_name": "['application site erythema']",
+      "prediction_score": 0.001654103398323059,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 980,
+      "side_effect_id": 731,
+      "side_effect_name": "['pleurisy']",
+      "prediction_score": 0.0010999199002981186,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 981,
+      "side_effect_id": 669,
+      "side_effect_name": "['orchitis noninfective']",
+      "prediction_score": 0.0009672045707702637,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 982,
+      "side_effect_id": 693,
+      "side_effect_name": "['panic reaction']",
+      "prediction_score": 0.0008752569556236267,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 983,
+      "side_effect_id": 216,
+      "side_effect_name": "[\"crohn's disease\"]",
+      "prediction_score": 0.0007163435220718384,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 984,
+      "side_effect_id": 836,
+      "side_effect_name": "['sinus headache']",
+      "prediction_score": -0.00017669051885604858,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 985,
+      "side_effect_id": 281,
+      "side_effect_name": "['ejaculation delayed']",
+      "prediction_score": -0.0014354400336742401,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 986,
+      "side_effect_id": 394,
+      "side_effect_name": "['haemorrhagic disorder']",
+      "prediction_score": -0.0014702491462230682,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 987,
+      "side_effect_id": 362,
+      "side_effect_name": "['gastrointestinal haemorrhage']",
+      "prediction_score": -0.003204137086868286,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 988,
+      "side_effect_id": 38,
+      "side_effect_name": "['anal pruritus']",
+      "prediction_score": -0.003652747720479965,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 989,
+      "side_effect_id": 338,
+      "side_effect_name": "['feeling jittery']",
+      "prediction_score": -0.004651276394724846,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 990,
+      "side_effect_id": 541,
+      "side_effect_name": "['libido disorder']",
+      "prediction_score": -0.007405433803796768,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 991,
+      "side_effect_id": 751,
+      "side_effect_name": "['prostatitis']",
+      "prediction_score": -0.008084272965788841,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 992,
+      "side_effect_id": 120,
+      "side_effect_name": "['blood potassium decreased']",
+      "prediction_score": -0.008294939994812012,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 993,
+      "side_effect_id": 627,
+      "side_effect_name": "['nephropathy']",
+      "prediction_score": -0.014411628246307373,
+      "is_ground_truth": false
+    },
+    {
+      "rank": 994,
+      "side_effect_id": 152,
+      "side_effect_name": "['bursitis']",
+      "prediction_score": -0.020099876448512077,
+      "is_ground_truth": false
+    }
+  ]
+}

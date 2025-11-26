@@ -1,0 +1,127 @@
+{
+  "drug": "Ibuprofen",
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "total_side_effects": 994,
+  "top_predictions": [
+    {
+      "rank": 1,
+      "side_effect_id": 847,
+      "side_effect_name": "['skin infection']",
+      "prediction_score": 0.7245404124259949
+    },
+    {
+      "rank": 2,
+      "side_effect_id": 318,
+      "side_effect_name": "['eye disorder']",
+      "prediction_score": 0.7048714756965637
+    },
+    {
+      "rank": 3,
+      "side_effect_id": 516,
+      "side_effect_name": "['irritability']",
+      "prediction_score": 0.7022521495819092
+    },
+    {
+      "rank": 4,
+      "side_effect_id": 773,
+      "side_effect_name": "['pupils unequal']",
+      "prediction_score": 0.6860455870628357
+    },
+    {
+      "rank": 5,
+      "side_effect_id": 135,
+      "side_effect_name": "['breast cancer']",
+      "prediction_score": 0.6574861407279968
+    },
+    {
+      "rank": 6,
+      "side_effect_id": 53,
+      "side_effect_name": "['anxiety']",
+      "prediction_score": 0.6520186066627502
+    },
+    {
+      "rank": 7,
+      "side_effect_id": 580,
+      "side_effect_name": "['mental disorder']",
+      "prediction_score": 0.6454517245292664
+    },
+    {
+      "rank": 8,
+      "side_effect_id": 788,
+      "side_effect_name": "['renal failure']",
+      "prediction_score": 0.6418251395225525
+    },
+    {
+      "rank": 9,
+      "side_effect_id": 65,
+      "side_effect_name": "['application site paraesthesia']",
+      "prediction_score": 0.6341894865036011
+    },
+    {
+      "rank": 10,
+      "side_effect_id": 118,
+      "side_effect_name": "['blood lactate dehydrogenase increased']",
+      "prediction_score": 0.6337897181510925
+    },
+    {
+      "rank": 11,
+      "side_effect_id": 88,
+      "side_effect_name": "['atrioventricular block complete']",
+      "prediction_score": 0.6321308016777039
+    },
+    {
+      "rank": 12,
+      "side_effect_id": 493,
+      "side_effect_name": "['infusion site pain']",
+      "prediction_score": 0.6278588771820068
+    },
+    {
+      "rank": 13,
+      "side_effect_id": 155,
+      "side_effect_name": "['cardiac arrest']",
+      "prediction_score": 0.6231822967529297
+    },
+    {
+      "rank": 14,
+      "side_effect_id": 85,
+      "side_effect_name": "['atrial fibrillation']",
+      "prediction_score": 0.6169069409370422
+    },
+    {
+      "rank": 15,
+      "side_effect_id": 41,
+      "side_effect_name": "['aneurysm']",
+      "prediction_score": 0.6160511374473572
+    },
+    {
+      "rank": 16,
+      "side_effect_id": 900,
+      "side_effect_name": "['thinking abnormal']",
+      "prediction_score": 0.614682137966156
+    },
+    {
+      "rank": 17,
+      "side_effect_id": 98,
+      "side_effect_name": "['biliary colic']",
+      "prediction_score": 0.6093307733535767
+    },
+    {
+      "rank": 18,
+      "side_effect_id": 358,
+      "side_effect_name": "['gastritis']",
+      "prediction_score": 0.607580840587616
+    },
+    {
+      "rank": 19,
+      "side_effect_id": 308,
+      "side_effect_name": "['erythema nodosum']",
+      "prediction_score": 0.6039741635322571
+    },
+    {
+      "rank": 20,
+      "side_effect_id": 647,
+      "side_effect_name": "['non-cardiac chest pain']",
+      "prediction_score": 0.5993711352348328
+    }
+  ]
+}

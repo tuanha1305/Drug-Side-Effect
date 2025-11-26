@@ -1,0 +1,4 @@
+usage: main.py [-h] [--model MODEL] [--lr LR] [--wd WD] [--epoch EPOCH]
+               [--log_interval LOG_INTERVAL] [--cuda_name CUDA_NAME]
+               [--dim DIM] [--save_model]
+main.py: error: unrecognized arguments: 018.log
