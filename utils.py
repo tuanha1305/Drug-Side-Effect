@@ -31,7 +31,7 @@ def MAE(y, f):
 
 
 def ci(y, f):
-    ind = np.argsort(y)  # argsort函数返回的是数组值从小到大的索引值
+    ind = np.argsort(y)  # The argsort function returns the indices that would sort the array in ascending order.
     y = y[ind]
     f = f[ind]
     i = len(y) - 1
@@ -118,8 +118,8 @@ def my_draw_mse(mse, rmse, title, result_folder):
 
 def evaluate_others(M, Tr_neg, Te, positions=[1, 5, 10, 15]):
     """
-    :param M: 预测值
-    :param Tr_neg: dict， 包含Te
+    :param M: predicted values
+    :param Tr_neg: dict, contains Te
     :param Te:  dict
     :param positions:
     :return:
