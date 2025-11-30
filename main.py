@@ -24,7 +24,7 @@ drug_side = pickle.load(gii)
 gii.close()
 
 
-def Extract_positive_negative_samples(DAL, addition_negative_number=''):
+def extract_positive_negative_samples(DAL, addition_negative_number=''):
     k = 0
     interaction_target = np.zeros((DAL.shape[0] * DAL.shape[1], 3)).astype(int)
     for i in range(DAL.shape[0]):
@@ -33,7 +33,7 @@ def Extract_positive_negative_samples(DAL, addition_negative_number=''):
             interaction_target[k, 1] = j
             interaction_target[k, 2] = DAL[i, j]
             k = k + 1
-    data_shuffle = interaction_target[interaction_target[:, 2].argsort()]  # 按照最后一列对行排序
+    data_shuffle = interaction_target[interaction_target[:, 2].argsort()]  # Sort rows by the last column
     number_positive = len(np.nonzero(data_shuffle[:, 2])[0])
     final_positive_sample = data_shuffle[interaction_target.shape[0] - number_positive::]
     negative_sample = data_shuffle[0:interaction_target.shape[0] - number_positive]
@@ -61,17 +61,17 @@ def identify_sub(data, k):
     side_id = [item[0] for item in data]
     labels = [item[2] for item in data]
 
-    # 获得SMILE-sub序号
+    # Get the SMILES-sub indices
     sub_dict = {}
     for i in range(len(drug_smile)):
         drug_sub, mask = drug2emb_encoder(drug_smile[i])
         drug_sub = drug_sub.tolist()
         sub_dict[i] = drug_sub
 
-    # 暂存成文件
+    # Temporarily save as a file
     with open(f'data/sub/my_dict_{k}.pkl', 'wb') as f:
         pickle.dump(sub_dict, f)
-    # 读取文件
+    # Read the file
     with open(f'data/sub/my_dict_{k}.pkl', 'rb') as f:
         sub_dict = pickle.load(f)
 
@@ -87,12 +87,12 @@ def identify_sub(data, k):
     np.save(f"data/sub/SE_sub_{k}.npy", SE_sub)
     SE_sub = np.load(f"data/sub/SE_sub_{k}.npy", allow_pickle=True)
 
-    # 总和
+    # Total sum
     n = np.sum(SE_sub)
-    # 计算行和
+    # Calculate row sums
     SE_sum = np.sum(SE_sub, axis=1)
     SE_p = SE_sum / n
-    # 计算列和
+    # Calculate column sums
     Sub_sum = np.sum(SE_sub, axis=0)
     Sub_p = Sub_sum / n
 
@@ -153,7 +153,7 @@ def trainfun(model, device, train_loader, optimizer, epoch, log_interval, test_l
 
         pred = out.to(device)
 
-        loss = loss_fun(pred.flatten(), Label).to('cpu')
+        loss = loss_fun(pred.flatten(), Label) # fix gpu
 
         loss.backward()
         optimizer.step()
@@ -163,7 +163,7 @@ def trainfun(model, device, train_loader, optimizer, epoch, log_interval, test_l
 
 
 def predict(model, device, test_loader):
-    # 声明为张量
+    # Declare as a tensor
     total_preds = torch.Tensor()
     total_labels = torch.Tensor()
 
@@ -234,10 +234,10 @@ def evaluate(model, device, test_loader):
 
         precision = precision_score(pre_list, label_list)
 
-        # 计算召回率
+        # Calculate recall
         recall = recall_score(pre_list, label_list)
 
-        # 计算准确率
+        # Calculate accuracy
         accuracy = accuracy_score(pre_list, label_list)
 
         total_preds = np.where(total_preds > 0.5, 1, 0)
@@ -268,19 +268,23 @@ def main(training_generator, testing_generator, modeling, lr, num_epoch, weight_
     model_st = modeling.__name__
     train_losses = []
 
-    # 确定设备
+    # Determine the device
     print('CPU/GPU: ', torch.cuda.is_available())
-    device = torch.device(cuda_name if torch.cuda.is_available() else 'cpu')
+    if torch.cuda.is_available():
+        device = torch.device(cuda_name if cuda_name != 'cpu' else 'cuda:0')
+    else:
+        device = torch.device('cpu')
+        print('⚠ GPU không khả dụng, sử dụng CPU')
     print('Device: ', device)
 
-    # 模型初始化
+    # Model initialization
     model = modeling().to(device)
 
-    # 计算模型的参数总数
+    # Calculate the total number of model parameters
     total_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f'Total parameters: {total_params}')
 
-    # 创建优化器
+    # Create optimizer
     optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
 
     # Resume từ checkpoint nếu có
@@ -422,7 +426,7 @@ class Data_Encoder(data.Dataset):
         # d_v = drug2single_vector(d)
         d_v, input_mask_d = drug2emb_encoder(d)
 
-        # 副作用的子结构是读取出来的
+        # The substructures of the side effects are loaded from the data
         SE_index = np.load(f"data/sub/SE_sub_index_50_32.npy").astype(int)
         SE_mask = np.load(f"data/sub/SE_sub_mask_50_32.npy")
         s_v = SE_index[s, :]
@@ -432,14 +436,14 @@ class Data_Encoder(data.Dataset):
 
 
 if __name__ == '__main__':
-    # 参数定义
+    # Parameter definitions
     parser = argparse.ArgumentParser(description='train model')
     parser.add_argument('--model', type=int, required=False, default=0)
     parser.add_argument('--lr', type=float, required=False, default=1e-4, help='Learning rate')
     parser.add_argument('--wd', type=float, required=False, default=0.01, help='weight_decay')
     parser.add_argument('--epoch', type=int, required=False, default=200, help='Number of epoch')
     parser.add_argument('--log_interval', type=int, required=False, default=40, help='Log interval')
-    parser.add_argument('--cuda_name', type=str, required=False, default='cpu', help='Cuda')
+    parser.add_argument('--cuda_name', type=str, required=False, default='cuda:0', help='Cuda')
     parser.add_argument('--dim', type=int, required=False, default=200,
                         help='features dimensions of drugs and side effects')
     parser.add_argument('--save_model', action='store_true', default=True, help='save model and features')
@@ -455,8 +459,8 @@ if __name__ == '__main__':
     cuda_name = args.cuda_name
     save_model = args.save_model
 
-    #  获取正负样本
-    addition_negative_sample, final_positive_sample, final_negative_sample = Extract_positive_negative_samples(
+    # Get positive and negative samples
+    addition_negative_sample, final_positive_sample, final_negative_sample = extract_positive_negative_samples(
         drug_side, addition_negative_number='all')
 
     addition_negative_sample = np.vstack((addition_negative_sample, final_negative_sample))
@@ -499,11 +503,11 @@ if __name__ == '__main__':
         data_train = np.array(data)[train]
         data_test = np.array(data)[test]
 
-        # 将数据转为DataFrame
+        # Convert the data to a DataFrame
         df_train = pd.DataFrame(data=data_train.tolist(), columns=['SE_id', 'Drug_smile', 'Label'])
         df_test = pd.DataFrame(data=data_test.tolist(), columns=['SE_id', 'Drug_smile', 'Label'])
 
-        # 创建数据集和数据加载器
+        # Create the dataset and data loader
         training_set = Data_Encoder(df_train.index.values, df_train.Label.values, df_train, k)
         testing_set = Data_Encoder(df_test.index.values, df_test.Label.values, df_test, k)
 

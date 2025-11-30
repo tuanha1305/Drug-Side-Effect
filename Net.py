@@ -24,7 +24,7 @@ class Trans(torch.nn.Module):
         transformer_attention_probs_dropout = 0.1
         transformer_hidden_dropout_rate = 0.1
 
-        # 嵌入编码层
+        # Embedding encoding layer
         self.embDrug = Embeddings(input_dim_drug,
                               transformer_emb_size_drug,
                               50,
@@ -35,7 +35,7 @@ class Trans(torch.nn.Module):
                               50,
                               transformer_dropout_rate)
 
-        # Transformer层
+        # Transformer layer
         self.encoderDrug = Encoder_MultipleLayers(transformer_n_layer_drug,
                                               transformer_emb_size_drug,
                                               transformer_intermediate_size_drug,
@@ -89,7 +89,7 @@ class Trans(torch.nn.Module):
             nn.Sigmoid()
         )
 
-        # 位置编码层
+        # Positional encoding layer
         self.position_embeddings = nn.Embedding(500, 200)
 
 
@@ -123,7 +123,7 @@ class Trans(torch.nn.Module):
         # Lấy device từ model parameters (đảm bảo nhất quán với device của model)
         device = next(self.parameters()).device
 
-        # 子结构编码
+        # Substructure encoding
         Drug = Drug.long().to(device)
         DrugMask = DrugMask.long().to(device)
         DrugMask = DrugMask.unsqueeze(1).unsqueeze(2)
@@ -132,7 +132,7 @@ class Trans(torch.nn.Module):
         encoded_layers = self.encoderDrug(emb.float(), DrugMask.float(), False)
         x_d = encoded_layers
 
-        # 副作用-子结构编码
+        # Side-effect substructure encoding
         SE = SE.long().to(device)
         SEMsak = SEMsak.long().to(device)
         SEMsak = SEMsak.unsqueeze(1).unsqueeze(2)
@@ -291,16 +291,16 @@ def drug2emb_encoder(smile):
     vocab_path = 'data/drug_codes_chembl_freq_1500.txt'
     sub_csv = pd.read_csv('data/subword_units_map_chembl_freq_1500.csv')
 
-    # 初始化一个BPE编码器，该编码器可以用于将文本进行分词或编码
+    # Initialize a BPE encoder for tokenizing or encoding text
     bpe_codes_drug = codecs.open(vocab_path)
     dbpe = BPE(bpe_codes_drug, merges=-1, separator='')
-    idx2word_d = sub_csv['index'].values  # 将所有的子结构列表给提取出来
-    words2idx_d = dict(zip(idx2word_d, range(0, len(idx2word_d))))  # 构造字典：让子结构与index一一对应
+    idx2word_d = sub_csv['index'].values  # Extract all substructure lists
+    words2idx_d = dict(zip(idx2word_d, range(0, len(idx2word_d))))  # Build a dictionary mapping substructures to indices
 
     max_d = 50
     t1 = dbpe.process_line(smile).split()  # split
     try:
-        i1 = np.asarray([words2idx_d[i] for i in t1])  # 将该smile的子结构找到对应的index，形成一个index的ndarray
+        i1 = np.asarray([words2idx_d[i] for i in t1])  # Map the SMILES substructures to their indices and create an index ndarray
     except:
         i1 = np.array([0])
 
@@ -309,7 +309,7 @@ def drug2emb_encoder(smile):
         i = np.pad(i1, (0, max_d - l), 'constant', constant_values=0)
         input_mask = ([1] * l) + ([0] * (max_d - l))
     else:
-        i = i1[:max_d]  # 进行填充
-        input_mask = [1] * max_d  # 构造mask（盖住填充部分）
+        i = i1[:max_d]  # Perform padding
+        input_mask = [1] * max_d  # Construct a mask to cover the padded parts
 
     return i, np.asarray(input_mask)
