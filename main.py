@@ -13,6 +13,7 @@ from sklearn.model_selection import StratifiedKFold
 import torch.utils.data as data
 from sklearn.metrics import precision_score, recall_score, accuracy_score
 from utils import *
+from tqdm import tqdm
 
 raw_file = 'data/raw_frequency_750.mat'
 SMILES_file = 'data/drug_SMILES_750.csv'
@@ -138,6 +139,7 @@ def trainfun(model, device, train_loader, optimizer, epoch, log_interval, test_l
     # Train one epoch
     model.train()
     avg_loss = []
+    pbar = tqdm(train_loader, desc=f'Epoch {epoch}', ncols=100, leave=True)
 
     for batch_idx, (Drug, SE, DrugMask, SEMsak, Label) in enumerate(train_loader):
 
@@ -158,6 +160,9 @@ def trainfun(model, device, train_loader, optimizer, epoch, log_interval, test_l
         loss.backward()
         optimizer.step()
         avg_loss.append(loss.item())
+
+        pbar.set_postfix({'loss': f'{loss.item():.6f}', 
+                         'avg_loss': f'{np.mean(avg_loss):.6f}'})
 
     return sum(avg_loss) / len(avg_loss)
 
@@ -267,6 +272,7 @@ def main(training_generator, testing_generator, modeling, lr, num_epoch, weight_
 
     model_st = modeling.__name__
     train_losses = []
+    epoch_pbar = tqdm(range(start_epoch, num_epoch), desc='Training', ncols=120, leave=True)
 
     # Determine the device
     print('CPU/GPU: ', torch.cuda.is_available())
@@ -375,7 +381,24 @@ def main(training_generator, testing_generator, modeling, lr, num_epoch, weight_
     # Tính metrics hồi quy chính: MSE, RMSE, Spearman (SCC)
     test_MSE = mse(test_labels, test_preds)
     test_RMSE = rmse(test_labels, test_preds)
+    test_MAE = mae(test_labels, test_preds)
     test_SCC = spearman(test_labels, test_preds)
+    overlap_1 = overlap_at_k(test_labels, test_preds, 0.01)
+    overlap_5 = overlap_at_k(test_labels, test_preds, 0.05)
+    overlap_10 = overlap_at_k(test_labels, test_preds, 0.10)
+    overlap_20 = overlap_at_k(test_labels, test_preds, 0.20)
+
+    print("\n" + "="*60)
+    print("===== PAPER METRICS (REGRESSION) =====")
+    print(f"MSE         : {test_MSE:.5f}")
+    print(f"RMSE        : {test_RMSE:.5f}")
+    print(f"MAE         : {test_MAE:.5f}")
+    print(f"SCC         : {test_SCC:.5f}")
+    print(f"Overlap@1%  : {overlap_1:.5f}")
+    print(f"Overlap@5%  : {overlap_5:.5f}")
+    print(f"Overlap@10% : {overlap_10:.5f}")
+    print(f"Overlap@20% : {overlap_20:.5f}")
+    print("="*60 + "\n")
 
     print("Dang danh gia")
     auc_all, aupr_all, drugAUC, drugAUPR, precision, recall, accuracy = evaluate(model=model, device=device,
@@ -385,6 +408,21 @@ def main(training_generator, testing_generator, modeling, lr, num_epoch, weight_
     print('Test (Regression): MSE: {:.5f}\tRMSE: {:.5f}\tSCC: {:.5f}'.format(test_MSE, test_RMSE, test_SCC))
     print('\tClassification (tham khảo): all AUC: {:.5f}\tall AUPR: {:.5f}\tdrug AUC: {:.5f}\tdrug AUPR: {:.5f}\tPrecise: {:.5f}\tRecall: {:.5f}\tACC: {:.5f}'.format(
         auc_all, aupr_all, drugAUC, drugAUPR, precision, recall, accuracy))
+    
+    auc_all, aupr_all, drugAUC, drugAUPR, precision, recall, accuracy = evaluate(
+        model=model, device=device, test_loader=testing_generator
+    )
+
+    print("="*60)
+    print("===== CLASSIFICATION METRICS (THAM KHẢO) =====")
+    print(f"All AUC     : {auc_all:.5f}")
+    print(f"All AUPR    : {aupr_all:.5f}")
+    print(f"Drug AUC    : {drugAUC:.5f}")
+    print(f"Drug AUPR   : {drugAUPR:.5f}")
+    print(f"Precision   : {precision:.5f}")
+    print(f"Recall      : {recall:.5f}")
+    print(f"Accuracy    : {accuracy:.5f}")
+    print("="*60 + "\n")
 
     os.makedirs('results', exist_ok=True)
     # save per-epoch history (đã được ghi từng epoch; vẫn ghi lại lần nữa để chắc chắn)
@@ -397,6 +435,11 @@ def main(training_generator, testing_generator, modeling, lr, num_epoch, weight_
             'MSE': float(test_MSE),
             'RMSE': float(test_RMSE),
             'SCC': float(test_SCC),
+            'Overlap@1%': float(overlap_1),
+            'Overlap@5%': float(overlap_5),
+            'Overlap@10%': float(overlap_10),
+            'Overlap@20%': float(overlap_20),
+            # Classification metrics (Reference)
             'AUC_all': float(auc_all),
             'AUPR_all': float(aupr_all),
             'AUC_drug': float(drugAUC),

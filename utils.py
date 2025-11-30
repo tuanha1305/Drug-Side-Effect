@@ -29,6 +29,35 @@ def MAE(y, f):
     rs = sklearn.metrics.mean_absolute_error(y, f)
     return rs
 
+def overlap_at_k(y_true, y_pred, k):
+    """
+    Tính overlap giữa top-k% predictions và top-k% ground truth
+    
+    Args:
+        y_true: ground truth labels
+        y_pred: predicted labels
+        k: tỷ lệ top samples (0.01 = 1%, 0.05 = 5%, etc.)
+    
+    Returns:
+        overlap ratio (0-1)
+    """
+    y_true = np.array(y_true).flatten()
+    y_pred = np.array(y_pred).flatten()
+    
+    # Số lượng samples trong top k%
+    n_samples = len(y_true)
+    k_samples = max(1, int(n_samples * k))
+    
+    # Lấy indices của top k% samples
+    top_k_true_indices = set(np.argsort(y_true)[-k_samples:])
+    top_k_pred_indices = set(np.argsort(y_pred)[-k_samples:])
+    
+    # Tính overlap
+    overlap = len(top_k_true_indices.intersection(top_k_pred_indices))
+    overlap_ratio = overlap / k_samples
+    
+    return overlap_ratio
+
 
 def ci(y, f):
     ind = np.argsort(y)  # The argsort function returns the indices that would sort the array in ascending order.
